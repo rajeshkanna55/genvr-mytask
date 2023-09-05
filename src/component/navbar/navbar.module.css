@@ -1,0 +1,13 @@
+.logo
+{
+    height: 80px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_image
+{
+    border-radius: 50%;
+}
