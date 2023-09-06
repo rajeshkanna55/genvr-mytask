@@ -1,0 +1,162 @@
+.side_content
+{
+   width: 100%;
+   height: 600px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cont{
+    width: 100%;
+}
+.side_textgen
+{
+ width: 100%;
+  height: 550px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.side_image
+{
+  width: 85%;
+  height: 520px;
+  border-radius: 10px;
+ 
+}
+.image_cont
+{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side_option
+{
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.align_image
+{
+    border-radius: 10px;
+    width:100%;
+    height: 100%; 
+    display: block; 
+    margin: auto;
+}
+.side_text_gen
+{
+    height: 530px;
+     width: 100%;
+}
+
+.text_field{
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(226, 223, 223);
+    font-size: 13px;
+    background-color: whitesmoke;
+}
+.option_list{
+    width: 100%;
+}
+.option_ul_list
+{
+    
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 10px;
+}
+.option_li_list_active{
+    text-align: center;
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.option_li_list
+{
+    text-align: center;
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.checkbox
+{
+    width: 100%;
+    height: 100px;
+}
+
+.check_background:checked
+{
+    background-color: green;
+}
+.button
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.button_field
+{
+    color: white;
+    padding: 10px 80px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right ,#73F89D, #48A0F9);
+}
+.option_style_list
+{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 10px;
+}
+.option_sty_list
+{
+    width: 80%;
+}
+.empty_cards
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    scrollbar-color:#73F89D ;
+}
+.empty_cards::-webkit-scrollbar {
+    width: 8px;
+  }
+.empty_cards::-webkit-scrollbar-thumb {
+    background-color: #44d1f5;
+    border-radius: 5px;
+}
+.card{
+    width:80px;
+    height : 80px;
+    background-color: whitesmoke;
+}
+
+

@@ -18,7 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: rgb(246,246,246);
+  background-color: whitesmoke;
   /* background: linear-gradient(
       to bottom,
       transparent,

@@ -2,12 +2,59 @@
 {
     height: 80px;
     width: 100px;
-    background-color: white;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .logo_image
 {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+}
+.profile_name
+{
+    width : 50px;
+    height :  20px;
+    background-color: aqua;
+}
+.navbar_base
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.navbar_profile
+{
+    width: 150px;
+    height: 80px;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.profile_ring
+{
+    padding: 2.8px;
+    border-radius: 50%;
+    /* background-color: var(--Gradient, linear-gradient(102deg, #73F89D 0%, #48A0F9 100%)); */
+    background-image: linear-gradient(to right ,#73F89D, #48A0F9);
+}
+.profile_ring_gape
+{
+    padding: 2.3px;
+    border-radius: 50%;
+    background-color: white;
+}
+.profile_image
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.color{
+   color: white;
 }
