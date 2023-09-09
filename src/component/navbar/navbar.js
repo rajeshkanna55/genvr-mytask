@@ -1,7 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.css';
+
 import logo from '../../public/assets/logo.png';
 import style from './navbar.module.css';
-import profile from '../../public/assets/profile.png';
+import girl from '../../public/assets/girl.png';
 import Image from 'next/image';
 import OptionPage from '../optionPage/optionPage';
 import { Grid } from '@mui/material';
@@ -19,11 +19,15 @@ export default function Navbar(){
                 <div className={style.profile_ring}>
                   <div className={style.profile_ring_gape}>
                     <Image
-                      src={profile}
+                      src={girl}
                       alt="profile"
                       className={style.profile_image}
                     />
                   </div>
+                </div>
+                <div className={style.username}>
+                  <p><strong>James B.</strong></p>
+                  <a href='' style={{color:'gray'}}>View Profile</a>
                 </div>
               </div>
             </div>

@@ -34,7 +34,7 @@
     /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
-    /* background-color: aqua; */
+   
 }
 .profile_ring
 {
@@ -57,4 +57,10 @@
 }
 .color{
    color: white;
+}
+.username
+{
+    text-align: center;
+    width: 200px;
+    color:black;
 }

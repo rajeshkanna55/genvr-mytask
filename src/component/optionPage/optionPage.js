@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import style from './optionPage.module.css';
 import { Grid } from '@mui/material';
 export default function OptionPage(){
@@ -7,6 +7,7 @@ export default function OptionPage(){
     const extra=['Upscaling','Style transfer','Face swap','Relighting','Object removal','Foreground change','Background change','Product photography','Change by prompt','Click and change','T-shirt generator']
     const explore =['Base models','Loras','Textual Inversions','Styles','Artist styles','Aesthetic embeddings']
      const lora =['My models','Saved models','Publicly shared models'];
+     const select = ['Generation','Editing','Extra','Explore','Lora Model Gallery'];
     return (
       <>
         <div className={style.color}>
@@ -30,8 +31,8 @@ export default function OptionPage(){
                 </div>
                 <div className={style.option_placing}>
                   <div className={style.select}>
-                    <select name="Editing" className={style.choose_option}>
-                      <option value="" disabled selected>
+                    <select name="Editing" className={style.choose_option} >
+                      <option value="" disabled selected >
                         Editing
                       </option>
                       {editing &&
@@ -45,8 +46,8 @@ export default function OptionPage(){
                 </div>
                 <div className={style.option_placing}>
                   <div className={style.select}>
-                    <select name="Extra" className={style.choose_option}>
-                      <option value="" disabled selected>
+                    <select name="Extra" className={style.choose_option} defaultValue='Extra' >
+                      <option value="Extra" disabled >
                         Extra
                       </option>
                       {extra &&
@@ -80,25 +81,10 @@ export default function OptionPage(){
                       className={style.choose_option}
                     >
                       <option value="" disabled selected>
-                        Lora Model
+                        Lora Model Gallery
                       </option>
                       {lora &&
                         lora.map((item) => (
-                          <option key={item} value={item}>
-                            {item}
-                          </option>
-                        ))}
-                    </select>
-                  </div>
-                </div>
-                <div className={style.option_placing}>
-                  <div className={style.select}>
-                    <select name="Gallery" className={style.choose_option}>
-                      <option value="" disabled selected>
-                        Gallery
-                      </option>
-                      {generation &&
-                        generation.map((item) => (
                           <option key={item} value={item}>
                             {item}
                           </option>

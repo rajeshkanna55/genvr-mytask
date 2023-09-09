@@ -1,23 +1,32 @@
-import { Card, Grid } from '@mui/material';
+import { Card, Divider, Grid } from '@mui/material';
 import style from './sideContent.module.css';
+import aipic from '../../public/assets/aipic.jpg';
 import girl from '../../public/assets/aipic.jpg';
+import pic1 from '../../public/assets/pic1.jpg';
+import pic2 from '../../public/assets/pic2.jpg';
+import pic3 from '../../public/assets/pic3.jpg';
+import pic4 from '../../public/assets/pic4.jpg';
+import pic18 from '../../public/assets/pic18.jpg';
 import Image from 'next/image';
 import { useState } from 'react';
+import { lora } from '../../public/constants/constans';
+import GenOption from '../genOption/genOption';
+import StyleOption from '../styleOption/styleOption';
+import OptionBar from '../optionBar/optionBar';
+
 
 export default function SideContent(){
-    const [selectedItem, setSelectedItem] = useState(0);
-    const [selectedstyle,setSelectedstyle] = useState(0)
+    const [selectedItem, setSelectedItem] = useState(0),
+          [selectedstyle,setSelectedstyle] = useState(0);
     const items = ['Basic', 'Advance', 'Control','Image'];
-    const ta = ['Style','Models','Lora','Embedded','Texture','Inverse'];
-    const tab =[1,2,3,4,5,6,7,8,9,1,2,3,4,5,6]
+    const ta = ['Styles','Artist styles', 'Aesthetic Embeddings','Textual inversion','Lora','Base models','Selected items'];
+       console.log(selectedstyle);
     const handleItemClick = (e) => {
         setSelectedItem(e.target.value);
-        // console.log(e.target.value);
       };
 
       const handleStyleClick= (e) => {
         setSelectedstyle(e.target.value);
-        // console.log(e.target.value);
       };
     return (
       <>
@@ -28,7 +37,7 @@ export default function SideContent(){
                 <Grid item xs={3}>
                   <div className={style.side_textgen}>
                     <div className="container-fluid">
-                      <div className={style.side_text_gen}>
+                      <div className={style.side_text_gen1}>
                         <p>
                           <strong>Prompt</strong>
                         </p>
@@ -62,24 +71,11 @@ export default function SideContent(){
                         </div>
                         <div className={style.checkbox}>
                           <Grid container>
-                            <Grid item xs={6}>
-                              <label>Enable</label>{" "}
-                              <input
-                                type="checkbox"
-                                className={style.check_background}
+                            <Grid item xs={12}>
+                              <GenOption
+                                option={selectedItem}
+                                // handlePattern={handlePattern}
                               />
-                            </Grid>
-                            <Grid item xs={6}>
-                              <label>Pixel Perfect</label>{" "}
-                              <input type="checkbox" />
-                            </Grid>
-                            <Grid item xs={6}>
-                              <label>Allow Preview</label>{" "}
-                              <input type="checkbox" />
-                            </Grid>
-                            <Grid item xs={6}>
-                              {" "}
-                              <label>Low Vram</label> <input type="checkbox" />
                             </Grid>
                           </Grid>
                         </div>
@@ -96,7 +92,7 @@ export default function SideContent(){
                   <div className={style.image_cont}>
                     <div className={style.side_image}>
                       <Image
-                        src={girl}
+                        src={pic18}
                         alt="GenPicture"
                         className={style.align_image}
                       />
@@ -106,42 +102,60 @@ export default function SideContent(){
                 <Grid item xs={3}>
                   <div className={style.side_option}>
                     <div className="container-fluid">
-                      <div className={style.side_text_gen}>
-                        <div className={style.option_sty_list}>
-                          <ul className={style.option_style_list}>
-                             <Grid container>
-                            {ta &&
-                              ta.map((item, index) => (
-                                <Grid xs={4} item key={index}>
-                                  <li
-                                    key={index}
-                                    value={index}
-                                    className={
-                                      index === selectedstyle
-                                        ? style.option_li_list_active
-                                        : style.option_li_list
-                                    }
-                                    onClick={handleStyleClick}
-                                  >
-                                    {item}
-                                  </li>
-                                </Grid>
-                              ))}
-                            </Grid> 
-                          </ul>
-                        </div>
-                        <div className={style.empty_cards}>
-                          <Grid container columnGap={2}>
-                            {tab &&
-                              tab.map((item, index) => (
-                                <Grid xs={3} key={index}>
-                                  <Card className={style.card}>
-                                    <p>{item}</p>
-                                  </Card>
-                                  <p>Desc</p>
-                                </Grid>
-                              ))}
-                          </Grid>
+                      <div className={style.side_text_gen2}>
+                          <div className={style.option_sty_list}>
+                            <ul className={style.option_style_list}>
+                              <Grid container>
+                                {ta &&
+                                  ta.map((item, index) => (
+                                    <Grid item xs={4} key={index}>
+                                      <li
+                                        key={index}
+                                        value={index}
+                                        className={
+                                          index === selectedstyle
+                                            ? style.option_li_list_active_right
+                                            : style.option_li_list_right
+                                        }
+                                        onClick={handleStyleClick}
+                                      >
+                                        {/* <div className={style.right_list}> */}
+                                        {item}
+                                        {/* </div> */}
+                                      </li>
+                                      <Divider
+                                        sx={{
+                                          backgroundColor: "gray",
+                                          marginTop: "10px",
+                                        }}
+                                      />
+                                    </Grid>
+                                  ))}
+                              </Grid>
+                            </ul>
+                          </div>
+                        <div className={style.scrollbar_align}>
+                          <div className={style.empty_cards}>
+                            {/* {pattern === 0 ? ( */}
+                              <Grid container columnGap={2}>
+                                {lora &&
+                                  lora.map((item, index) => (
+                                    <Grid xs={3} item key={index}>
+                                      <Card className={style.card}>
+                                        <Image
+                                          src={item?.image}
+                                          alt="styles"
+                                          className={style.tab_image}
+                                        />
+                                      </Card>
+                                      <p>{item?.name}</p>
+                                    </Grid>
+                                  ))}
+                              </Grid>
+                            {/* ) : ( */}
+                              {/* <StyleOption pattern={selectedstyle} /> */}
+                            {/* )} */}
+                          </div>
                         </div>
                       </div>
                     </div>
