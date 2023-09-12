@@ -1,0 +1,1393 @@
+export const baseModel=[
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/15236",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "character",
+            "girl",
+            "3d",
+            "subject",
+            "render",
+            "photorealistic",
+            "female",
+            "retro",
+            "anatomical",
+            "art",
+            "intricate",
+            "accurate",
+            "woman",
+            "illustration",
+            "cars",
+            "cartoon",
+            "cinematic",
+            "fantasy",
+            "photography",
+            "realistic"
+        ],
+        "rank": "10",
+        "name": "deliberate_v2.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1356",
+        "trainedWords": [
+            "dreamlikeart"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "style"
+        ],
+        "rank": "11",
+        "name": "dreamlikeDiffusion10_10.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/128713",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "landscapes",
+            "girl",
+            "3d",
+            "photorealistic",
+            "inpainting",
+            "digital art",
+            "scifi",
+            "base model",
+            "fantasy art",
+            "art style",
+            "paintings",
+            "woman",
+            "illustration",
+            "2d",
+            "digital illustration",
+            "fantasy",
+            "girls",
+            "portraits",
+            "realistic",
+            "video game"
+        ],
+        "rank": "12",
+        "name": "dreamshaper_8.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/50724",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "3d",
+            "all in one",
+            "manga",
+            "pixar",
+            "style",
+            "woman",
+            "2d",
+            "cartoon",
+            "digital illustration",
+            "portraits"
+        ],
+        "rank": "13",
+        "name": "duchaitenaiart_V453.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/91587",
+        "trainedWords": [
+            "furry"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "style",
+            "furry",
+            "2d",
+            "nsfw"
+        ],
+        "rank": "14",
+        "name": "duchaitenAnimefurry_v10.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/93834",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "3d",
+            "horror",
+            "realism",
+            "niji",
+            "style",
+            "nsfw",
+            "nijiv5"
+        ],
+        "rank": "15",
+        "name": "duchaitenDarkniji_v133.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/63193",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "3d",
+            "horror",
+            "erotic horror",
+            "pixar",
+            "comics",
+            "style",
+            "2d",
+            "cartoon",
+            "fantasy",
+            "realistic"
+        ],
+        "rank": "16",
+        "name": "duchaitendarkside_v40.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/30741",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "disney",
+            "3d",
+            "pixar",
+            "style",
+            "fantasy",
+            "portraits",
+            "video game"
+        ],
+        "rank": "17",
+        "name": "duchaitendreamworld_V30.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/50765",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "style",
+            "hentai",
+            "nsfw"
+        ],
+        "rank": "18",
+        "name": "duchaitenGodofsimp_v02.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/108544",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "3d",
+            "pixar",
+            "style",
+            "cute",
+            "nsfw"
+        ],
+        "rank": "19",
+        "name": "duchaitenGoldenlife_v10.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/34329",
+        "trainedWords": [
+            "best quality",
+            "tifa lockhart _(cosplay_)",
+            "aqua eyes",
+            "black hair",
+            "closed mouth",
+            "outdoors",
+            "solo",
+            "allur",
+            "ultra detailed",
+            "8k",
+            "hdr",
+            "octane render",
+            "unreal engine 5",
+            "amazing depth",
+            "rich colors",
+            "powerful imagery",
+            "psychedelic overtones",
+            "4k",
+            "8k."
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "landscapes",
+            "cars",
+            "cute girls",
+            "background",
+            "1girl",
+            "1man",
+            "all realistic",
+            "ultra realistic illustration",
+            "not anime",
+            "combat aircrafts",
+            "ferrari",
+            "human"
+        ],
+        "rank": "1",
+        "name": "mixrealV2Sd21_mixrealV2.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/96568",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "girl",
+            "midjourney",
+            "photorealistic",
+            "sexy",
+            "female",
+            "all in one",
+            "nudes",
+            "style",
+            "art style",
+            "woman",
+            "beautiful",
+            "game character",
+            "portraits",
+            "realistic",
+            "video game",
+            "duchaiten"
+        ],
+        "rank": "20",
+        "name": "duchaitenjourney_v56723.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/80635",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "3d",
+            "journey",
+            "style",
+            "nsfw",
+            "nijiv5"
+        ],
+        "rank": "21",
+        "name": "duchaitenniji_cuteV235.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/47085",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "surrealism",
+            "all in one",
+            "style",
+            "paintings",
+            "cartoon",
+            "landscape",
+            "nsfw",
+            "3d art"
+        ],
+        "rank": "22",
+        "name": "duchaitenStylelikeme_v15Fp16NoEma.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/44812",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "girl",
+            "asian",
+            "style",
+            "cute",
+            "fantasy",
+            "realistic",
+            "real_photo"
+        ],
+        "rank": "23",
+        "name": "duchaitensupercute_v20.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/13069",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "landscapes",
+            "concept art",
+            "art style",
+            "paintings",
+            "illustration",
+            "artstyle",
+            "digital illustration",
+            "fantasy"
+        ],
+        "rank": "24",
+        "name": "fantasyWorld_v1.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/76907",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "photorealistic",
+            "female",
+            "base model",
+            "art style",
+            "game character",
+            "girls",
+            "portraits",
+            "realistic"
+        ],
+        "rank": "25",
+        "name": "ghostmix_v20Bakedvae.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/143906",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "photorealistic",
+            "female",
+            "analog",
+            "realism",
+            "base model",
+            "portrait",
+            "raw photo",
+            "woman",
+            "photography",
+            "photorealism",
+            "realistic",
+            "photoshoot",
+            "natural colors"
+        ],
+        "rank": "26",
+        "name": "epicrealism_naturalSinRC1VAE.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/121557",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "person",
+            "realism",
+            "base model",
+            "portrait",
+            "photo",
+            "hyperrealistic character portraits",
+            "photography"
+        ],
+        "rank": "27",
+        "name": "icbinpICantBelieveIts_seco.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/136151",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "person",
+            "photorealistic",
+            "sexy",
+            "female",
+            "general purpose",
+            "highly detailed",
+            "base model",
+            "asian",
+            "african",
+            "design",
+            "indian",
+            "woman",
+            "male",
+            "man",
+            "photography",
+            "photorealism",
+            "portraits",
+            "realistic",
+            "women",
+            "asian man",
+            "arabic",
+            "indian outfit",
+            "asian woman",
+            "arab",
+            "african-american"
+        ],
+        "rank": "28",
+        "name": "lifeLikeDiffusionEthnicitiesSupportedNative_lifeLikeDiffusionV30.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/72396",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "girl",
+            "base model",
+            "art style",
+            "woman",
+            "beautiful",
+            "fantasy",
+            "1boy",
+            "1girl",
+            "1man",
+            "1guy"
+        ],
+        "rank": "29",
+        "name": "lyriel_v16.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/132760",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "landscapes",
+            "photorealistic",
+            "base model",
+            "portrait",
+            "hyperrealistic character portraits",
+            "photography",
+            "realistic"
+        ],
+        "rank": "2",
+        "name": "absolutereality_v181.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/136151",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "person",
+            "photorealistic",
+            "sexy",
+            "female",
+            "general purpose",
+            "highly detailed",
+            "base model",
+            "asian",
+            "african",
+            "design",
+            "indian",
+            "woman",
+            "male",
+            "man",
+            "photography",
+            "photorealism",
+            "portraits",
+            "realistic",
+            "women",
+            "asian man",
+            "arabic",
+            "indian outfit",
+            "asian woman",
+            "arab",
+            "african-american"
+        ],
+        "rank": "2",
+        "name": "lifeLikeDiffusionEthnicitiesSupportedNative_lifeLikeDiffusionV30.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/126470",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "base model",
+            "realistic"
+        ],
+        "rank": "30",
+        "name": "majicmixRealistic_betterV2V25.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/49055",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "art",
+            "base model",
+            "fantasy",
+            "creative"
+        ],
+        "rank": "31",
+        "name": "majicmixFantasy_v20.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/75209",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "base model",
+            "realistic"
+        ],
+        "rank": "32",
+        "name": "majicmixSombre_v20.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/69687",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "aesthetic",
+            "base model",
+            "2.5d"
+        ],
+        "rank": "33",
+        "name": "majicmixReverie_v10.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/89855",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "aesthetic",
+            "base model",
+            "fantasy",
+            "realistic"
+        ],
+        "rank": "34",
+        "name": "majicmixLux_v2.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/64094",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "landscapes",
+            "girl",
+            "3d",
+            "photorealistic",
+            "female",
+            "cosplay",
+            "base model",
+            "art style",
+            "woman",
+            "illustration",
+            "digital illustration",
+            "fantasy",
+            "girls",
+            "photography",
+            "portraits",
+            "realistic",
+            "semi-realistic",
+            "video game",
+            "women"
+        ],
+        "rank": "35",
+        "name": "neverendingDreamNED_v122BakedVae.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/27392",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "midjourney",
+            "style"
+        ],
+        "rank": "36",
+        "name": "openjourney_V4.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/124626",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "baldur\u2019s gate",
+            "new world",
+            "style",
+            "fantasy",
+            "rpg",
+            "world of warcraft"
+        ],
+        "rank": "37",
+        "name": "rpg_v5.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/130072",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "photorealistic",
+            "anatomical",
+            "base model",
+            "cgi",
+            "realistic",
+            "semi-realistic"
+        ],
+        "rank": "38",
+        "name": "realisticVisionV51_v51VAE.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/73",
+        "trainedWords": [
+            "redshift style"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "3d",
+            "render",
+            "style"
+        ],
+        "rank": "39",
+        "name": "redshiftDiffusion_v1.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/46259",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 2.1 768",
+        "tags": [
+            "midjourney",
+            "style",
+            "3dmdt",
+            "classicnegative"
+        ],
+        "rank": "3",
+        "name": "rmadaMergeSD21768_v70.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/135166",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "character",
+            "realism",
+            "photo"
+        ],
+        "rank": "40",
+        "name": "reliberate_v20.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/46846",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "character",
+            "illustration",
+            "cartoon",
+            "fantasy",
+            "portraits"
+        ],
+        "rank": "41",
+        "name": "revAnimated_v122EOL.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/4980",
+        "trainedWords": [
+            "sci-fi",
+            "caspian sci-fi",
+            "star atlas",
+            "star citizen",
+            "render"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "photorealistic",
+            "science fiction",
+            "scifi",
+            "style",
+            "realistic",
+            "sci fi"
+        ],
+        "rank": "42",
+        "name": "sciFiDiffusionV10_v10.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/69054",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "character"
+        ],
+        "rank": "43",
+        "name": "stablegram_v24.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/133611",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "style",
+            "cartoon",
+            "toon",
+            "nsfw"
+        ],
+        "rank": "44",
+        "name": "toonify_v20.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/125771",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "base model",
+            "comics",
+            "2d",
+            "cartoon",
+            "girls",
+            "pretty",
+            "comic"
+        ],
+        "rank": "45",
+        "name": "toonyou_beta6.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/26707",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "base model"
+        ],
+        "rank": "46",
+        "name": "uhd23_v1.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1144",
+        "trainedWords": [
+            "snthwve style",
+            "nvinkpunk"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "punk",
+            "synthwave",
+            "style"
+        ],
+        "rank": "47",
+        "name": "synthwavepunk_v2.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/5265",
+        "trainedWords": [
+            "vector-art"
+        ],
+        "baseModel": "SD 2.1 768",
+        "tags": [
+            "vector",
+            "illustration"
+        ],
+        "rank": "48",
+        "name": "vectorArt_vectorArtBeta.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/114059",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "base model",
+            "general use",
+            "semirealistic"
+        ],
+        "rank": "49",
+        "name": "yuzu_v11.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/141190",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "clothing"
+        ],
+        "rank": "4",
+        "name": "amixx_3Prunedfp16.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/14565",
+        "trainedWords": [
+            "dskise "
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "landscapes",
+            "3d",
+            "neon",
+            "synthwave",
+            "general purpose",
+            "architecture",
+            "highly detailed",
+            "buildings",
+            "concept art",
+            "illustration",
+            "digital illustration",
+            "isometric",
+            "vaporwave",
+            "video game",
+            "arch",
+            "future style"
+        ],
+        "rank": "50",
+        "name": "neonIsometric_1.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/111612",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "landscapes",
+            "architecture",
+            "buildings",
+            "interior design",
+            "urban",
+            "landscape",
+            "building",
+            "architecture design",
+            "architectural visualization",
+            "archviz",
+            "landscape design",
+            "rendering",
+            "architectures"
+        ],
+        "rank": "51",
+        "name": "architecturerealmix_v1repair.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/7709",
+        "trainedWords": [
+            "bganidusk",
+            "phtdzk1",
+            "vapodusk1"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "landscapes",
+            "photorealistic",
+            "general purpose",
+            "digital art",
+            "concept art",
+            "illustration",
+            "digital illustration",
+            "fantasy",
+            "photography",
+            "photorealism",
+            "realistic",
+            "semi-realistic",
+            "video game",
+            "background"
+        ],
+        "rank": "52",
+        "name": "conceptBackgroundsAnime_10.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/148587",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 2.0 768",
+        "tags": [
+            "photorealistic",
+            "realism",
+            "photorealism",
+            "realistic",
+            "background",
+            "landscape"
+        ],
+        "rank": "53",
+        "name": "landscapeRealistic_v20WarmColor.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/57618",
+        "trainedWords": [
+            "girl"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "base model"
+        ],
+        "rank": "54",
+        "name": "CounterfeitV30_v30.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/49046",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 2.1 768",
+        "tags": [
+            "generic",
+            "beautiful",
+            "1024",
+            "sd2.1"
+        ],
+        "rank": "55",
+        "name": "perpetualDiffusion10_v10Moon.yaml"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/8815",
+        "trainedWords": [
+            "sticker",
+            "vector-art"
+        ],
+        "baseModel": "SD 2.1",
+        "tags": [
+            "t-shirt",
+            "stickers",
+            "shirt"
+        ],
+        "rank": "56",
+        "name": "stickerArt_sticker.yaml"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/66578",
+        "trainedWords": [
+            "fking_scifi"
+        ],
+        "baseModel": "SD 2.1 768",
+        "tags": [
+            "zombies",
+            "photorealistic",
+            "concept",
+            "alien",
+            "science fiction",
+            "undead",
+            "android",
+            "werecreature",
+            "robots",
+            "demons",
+            "fantasy",
+            "sci fi",
+            "fking"
+        ],
+        "rank": "57",
+        "name": "fkingScifi_v3.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/5373",
+        "trainedWords": [
+            "cbzbb"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "character",
+            "dolls",
+            "midjourney",
+            "digital art",
+            "little",
+            "tiny",
+            "babies",
+            "baby",
+            "cartoon",
+            "cute"
+        ],
+        "rank": "58",
+        "name": "cuteRichstyle15_cuteRichstyle.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/42304",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 2.1 768",
+        "tags": [
+            "base model",
+            "nutty"
+        ],
+        "rank": "59",
+        "name": "illuminuttyDiffusion_v111.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1344",
+        "trainedWords": [
+            "analog style"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "photorealistic",
+            "analog",
+            "style",
+            "photography"
+        ],
+        "rank": "5",
+        "name": "analogDiffusion_10Safetensors.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/7709",
+        "trainedWords": [
+            "bganidusk",
+            "phtdzk1",
+            "vapodusk1"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "landscapes",
+            "photorealistic",
+            "general purpose",
+            "digital art",
+            "concept art",
+            "illustration",
+            "digital illustration",
+            "fantasy",
+            "photography",
+            "photorealism",
+            "realistic",
+            "semi-realistic",
+            "video game",
+            "background"
+        ],
+        "rank": "60",
+        "name": "conceptBackgroundsAnime_10.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/70414",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "Other",
+        "tags": [
+            "anime",
+            "girl",
+            "portaits",
+            "3d",
+            "photorealistic",
+            "illustration",
+            "beautiful",
+            "fantasy",
+            "photography",
+            "realistic"
+        ],
+        "rank": "61",
+        "name": "dreamful_v30.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/10071",
+        "trainedWords": [
+            "(80s anime style)"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "classic",
+            "3d",
+            "retro",
+            "manga",
+            "cgi",
+            "style"
+        ],
+        "rank": "62",
+        "name": "duchaitenclassicanim_dhClassicanimeV10.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1224",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anatomical",
+            "women"
+        ],
+        "rank": "63",
+        "name": "f222_v1.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/4635",
+        "trainedWords": [
+            "exposed ass and pussy",
+            "on all fours",
+            "hard dick",
+            "legs in the air",
+            "grabbing her ass cheeks",
+            "flashing breasts",
+            "bikini tanlines",
+            "blindfolded",
+            "gagged",
+            "huge breasts",
+            "medium breasts",
+            "small breasts",
+            "ripped stockings",
+            "sucking hard dick",
+            "exposed shaved pussy",
+            "hard nipples",
+            "soft nipples",
+            "wrapped in rope",
+            "upskirt",
+            "from behind",
+            "low angle",
+            "pov view",
+            "soft dick",
+            "flacid dick",
+            "moist dick",
+            "exposed balls",
+            "ass in the air"
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "photorealistic",
+            "hardcore",
+            "hassan",
+            "style"
+        ],
+        "rank": "64",
+        "name": "hassanblend1512And_hassanblend1512.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/129687",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "Other",
+        "tags": [
+            "girl",
+            "3d",
+            "sexy",
+            "porn",
+            "mix",
+            "fantasy art",
+            "style",
+            "ulzzang",
+            "woman",
+            "breasts",
+            "artstyle",
+            "fantasy",
+            "girls",
+            "hentai",
+            "semi-realistic"
+        ],
+        "rank": "65",
+        "name": "perfectWorld_v5Baked.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/143769",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "animals",
+            "base model",
+            "yiff",
+            "furry",
+            "yiffy"
+        ],
+        "rank": "66",
+        "name": "yiffymix_V33.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/33672",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "base model"
+        ],
+        "rank": "67",
+        "name": "AnythingV5Ink_v5RE.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/42561",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "person",
+            "photorealistic",
+            "female",
+            "highly detailed",
+            "base model",
+            "woman",
+            "beautiful",
+            "faces",
+            "game character",
+            "male",
+            "men",
+            "photography",
+            "photorealism",
+            "portraits",
+            "realistic",
+            "women"
+        ],
+        "rank": "68",
+        "name": "consistentFactorEuclid_v40.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/105674",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "photorealistic",
+            "anatomical",
+            "base model",
+            "cgi",
+            "realistic",
+            "semi-realistic"
+        ],
+        "rank": "69",
+        "name": "realisticVisionV51_v30VAE.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/28100",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "girl",
+            "sexy",
+            "female",
+            "manga",
+            "base model",
+            "concept art",
+            "pastel",
+            "art style",
+            "woman",
+            "illustration",
+            "artstyle",
+            "beautiful",
+            "cute",
+            "fantasy",
+            "girls"
+        ],
+        "rank": "6",
+        "name": "animePastelDream_softBakedVae.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/75",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "base model"
+        ],
+        "rank": "7",
+        "name": "anythingV3_fp16.ckpt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/90599",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "landscapes",
+            "character",
+            "person",
+            "photorealistic",
+            "sexy",
+            "female",
+            "colorful",
+            "realism",
+            "vibrant colors",
+            "art style",
+            "woman",
+            "photography",
+            "portraits",
+            "realistic"
+        ],
+        "rank": "8",
+        "name": "colorful_v31.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/142173",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "person",
+            "photorealistic",
+            "female",
+            "highly detailed",
+            "base model",
+            "woman",
+            "beautiful",
+            "faces",
+            "game character",
+            "male",
+            "men",
+            "photography",
+            "photorealism",
+            "portraits",
+            "realistic",
+            "women"
+        ],
+        "rank": "9",
+        "name": "consistentFactorEuclid_euclidCinematicV61.safetensors"
+    }
+];

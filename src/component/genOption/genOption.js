@@ -1,6 +1,7 @@
 import { Advanced } from "../advanced/advanced";
 import { Basic } from "../basic/basic";
 import { Control } from "../control/control";
+import { ImageBar } from "../image/imageBar";
 
  const GenOption=({option,handlePattern})=>{
     let showComponent;
@@ -15,7 +16,7 @@ import { Control } from "../control/control";
         showComponent = (<><Control/></>);
         break;
       case 3:
-        showComponent = (<></>);
+        showComponent = (<><ImageBar/></>);
         break;
       default:
         showComponent = (<><Basic/></>);

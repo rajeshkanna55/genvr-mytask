@@ -11,7 +11,6 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { lora } from '../../public/constants/constans';
 import GenOption from '../genOption/genOption';
-import StyleOption from '../styleOption/styleOption';
 import OptionBar from '../optionBar/optionBar';
 
 
@@ -19,7 +18,7 @@ export default function SideContent(){
     const [selectedItem, setSelectedItem] = useState(0),
           [selectedstyle,setSelectedstyle] = useState(0);
     const items = ['Basic', 'Advance', 'Control','Image'];
-    const ta = ['Styles','Artist styles', 'Aesthetic Embeddings','Textual inversion','Lora','Base models','Selected items'];
+    const ta = ['Styles','Artist Styles', 'Aesthetic Embeddings','Textual Inversion','Lora','Base Models','Selected Items'];
        console.log(selectedstyle);
     const handleItemClick = (e) => {
         setSelectedItem(e.target.value);
@@ -136,25 +135,11 @@ export default function SideContent(){
                           </div>
                         <div className={style.scrollbar_align}>
                           <div className={style.empty_cards}>
-                            {/* {pattern === 0 ? ( */}
-                              <Grid container columnGap={2}>
-                                {lora &&
-                                  lora.map((item, index) => (
-                                    <Grid xs={3} item key={index}>
-                                      <Card className={style.card}>
-                                        <Image
-                                          src={item?.image}
-                                          alt="styles"
-                                          className={style.tab_image}
-                                        />
-                                      </Card>
-                                      <p>{item?.name}</p>
-                                    </Grid>
-                                  ))}
+                              <Grid container 
+                              columnGap={3} 
+                              rowGap={2}>
+                               <OptionBar pattern={selectedstyle}/>
                               </Grid>
-                            {/* ) : ( */}
-                              {/* <StyleOption pattern={selectedstyle} /> */}
-                            {/* )} */}
                           </div>
                         </div>
                       </div>

@@ -1,0 +1,1058 @@
+[
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1372",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "cyber punk",
+            "landscapes",
+            "midjourney",
+            "style"
+        ],
+        "rank": "10",
+        "name": "djzCyberCityV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1518",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "junglepunk",
+            "village",
+            "style"
+        ],
+        "rank": "11",
+        "name": "djzJunglepunkVillage_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1373",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "spacecraft",
+            "spaceship",
+            "skies",
+            "jovian",
+            "jupiter",
+            "style"
+        ],
+        "rank": "12",
+        "name": "djzJovianSkiesV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1133",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "style"
+        ],
+        "rank": "13",
+        "name": "tokkyuModelAesthetic_version1.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1485",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "blossoms",
+            "sakura",
+            "style"
+        ],
+        "rank": "14",
+        "name": "djzSakuraBlossomV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1505",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "style"
+        ],
+        "rank": "15",
+        "name": "djzMonochromeV10_10.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1516",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "city",
+            "junglepunk",
+            "cities",
+            "style"
+        ],
+        "rank": "16",
+        "name": "djzJunglepunkCities_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1510",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "style"
+        ],
+        "rank": "17",
+        "name": "djzMonochromeV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1489",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "neon",
+            "streets",
+            "style"
+        ],
+        "rank": "18",
+        "name": "djzNeonStreetsV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1384",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "junglepunk",
+            "interiors",
+            "rooms",
+            "style"
+        ],
+        "rank": "19",
+        "name": "djzJunglepunkRoomsV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/20986",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "landscapes",
+            "photorealistic",
+            "asian",
+            "style"
+        ],
+        "rank": "1",
+        "name": "theAlleywaysOfSeoulScenic_v1.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1509",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "style"
+        ],
+        "rank": "20",
+        "name": "djzMonochromeV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1447",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "style",
+            "cars"
+        ],
+        "rank": "21",
+        "name": "djzDriftCarsV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1482",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "check",
+            "vibe",
+            "style"
+        ],
+        "rank": "22",
+        "name": "djzVibeCheckV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1488",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "pirate",
+            "style",
+            "fantasy"
+        ],
+        "rank": "23",
+        "name": "djzPirateFantasyV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1515",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "jovian",
+            "skyship",
+            "style"
+        ],
+        "rank": "24",
+        "name": "djzJovianSkyshipV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1444",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "post apocalyptic",
+            "apocalypse",
+            "apocalypso",
+            "apocalyso",
+            "style"
+        ],
+        "rank": "25",
+        "name": "djzApocalysoV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1377",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "treehouse",
+            "junglepunk",
+            "style"
+        ],
+        "rank": "26",
+        "name": "djzJunglepunk_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1376",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "chaos",
+            "infinite",
+            "style"
+        ],
+        "rank": "27",
+        "name": "djzInfiniteChaosV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1380",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "city",
+            "mega",
+            "style"
+        ],
+        "rank": "28",
+        "name": "djzMegaCityV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1390",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "city",
+            "mega",
+            "interiors",
+            "rooms",
+            "megacity",
+            "style"
+        ],
+        "rank": "29",
+        "name": "djzMegaCityRoomsV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/4169",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "victorian",
+            "furniture",
+            "bordello",
+            "style"
+        ],
+        "rank": "2",
+        "name": "victorianBordello_victorianBordelloV10.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1437",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "skeleton",
+            "cyber",
+            "style"
+        ],
+        "rank": "30",
+        "name": "djzCyberSkeletonV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1484",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "society",
+            "time",
+            "style"
+        ],
+        "rank": "31",
+        "name": "djzTimeSocietyV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1375",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "midjourney",
+            "cthulu",
+            "angels",
+            "style"
+        ],
+        "rank": "32",
+        "name": "djzCthuluAngelsV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1442",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "cyber",
+            "ninja",
+            "style"
+        ],
+        "rank": "33",
+        "name": "djzCyberNinjaV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1513",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "host",
+            "heavenly",
+            "style"
+        ],
+        "rank": "34",
+        "name": "djzHeavenlyHostV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1378",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "heist",
+            "prompt",
+            "style"
+        ],
+        "rank": "35",
+        "name": "djzPromptHeistV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1440",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "custom cars",
+            "streets",
+            "style",
+            "autos",
+            "fantasy"
+        ],
+        "rank": "36",
+        "name": "djzAutosFantasyV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1508",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "chaos",
+            "infinite",
+            "style"
+        ],
+        "rank": "37",
+        "name": "djzInfiniteChaosV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1486",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "heist",
+            "prompt",
+            "style"
+        ],
+        "rank": "38",
+        "name": "djzPromptHeistV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1443",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "angels",
+            "daemon",
+            "style"
+        ],
+        "rank": "39",
+        "name": "djzDaemonAngelsV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/4168",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "victorian",
+            "aesthetic",
+            "gothic",
+            "style"
+        ],
+        "rank": "3",
+        "name": "darkVictorian_darkVictorianV10.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1572",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "cyber punk",
+            "cyber",
+            "big",
+            "cyberpunk",
+            "kan",
+            "style"
+        ],
+        "rank": "40",
+        "name": "djzCYBERKANV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1435",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "girl",
+            "forest",
+            "style",
+            "girls"
+        ],
+        "rank": "41",
+        "name": "djzForestGirlV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1493",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "neon",
+            "knights",
+            "style"
+        ],
+        "rank": "42",
+        "name": "djzNeonKnightsV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1382",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "junglepunk",
+            "hunters",
+            "style"
+        ],
+        "rank": "43",
+        "name": "djzJunglepunkHunters_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1478",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "neon",
+            "tomino",
+            "style"
+        ],
+        "rank": "44",
+        "name": "djzNeonTominoV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1438",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "cyber",
+            "racers",
+            "style"
+        ],
+        "rank": "45",
+        "name": "djzCyberRacersV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1445",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "cyber",
+            "angels",
+            "style"
+        ],
+        "rank": "46",
+        "name": "djzCyberAngelsV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1517",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "grim",
+            "empire",
+            "style"
+        ],
+        "rank": "47",
+        "name": "djzGRIMEmpireV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1385",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "samurai",
+            "halloween",
+            "spooky",
+            "style"
+        ],
+        "rank": "48",
+        "name": "djzSpookySamuraiV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1492",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "neon",
+            "mutation",
+            "style"
+        ],
+        "rank": "49",
+        "name": "djzNeonMutationV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1379",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "prompt",
+            "eater",
+            "style"
+        ],
+        "rank": "4",
+        "name": "djzPromptEaterV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/71786",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "style"
+        ],
+        "rank": "50",
+        "name": "keTaAesthetic_v10.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1514",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "tabletop",
+            "miniatures",
+            "figurines",
+            "minifigs",
+            "minis",
+            "grim",
+            "ttrpg",
+            "style"
+        ],
+        "rank": "51",
+        "name": "djzGRIMMinisV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1436",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "reapers",
+            "edo",
+            "style"
+        ],
+        "rank": "52",
+        "name": "djzEdoReapersV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1439",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "archangel",
+            "angels",
+            "style"
+        ],
+        "rank": "53",
+        "name": "djzArchangelV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1386",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "custom cars",
+            "style"
+        ],
+        "rank": "54",
+        "name": "djzDriftCarsV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1477",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "heist",
+            "prompt",
+            "style"
+        ],
+        "rank": "55",
+        "name": "djzPromptHeistV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1374",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "cyber punk",
+            "samurai",
+            "style"
+        ],
+        "rank": "56",
+        "name": "djzCyberSocietyV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1441",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "explorers",
+            "spanish",
+            "conquistadors",
+            "style"
+        ],
+        "rank": "57",
+        "name": "djzConquistadorsV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1476",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "prompt",
+            "eater",
+            "style"
+        ],
+        "rank": "58",
+        "name": "djzPromptEaterV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/71774",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "style",
+            "video game"
+        ],
+        "rank": "59",
+        "name": "georgeKamitaniStyle_v10.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/4226",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "Other",
+        "tags": [
+            "dolls",
+            "mecha",
+            "bjd",
+            "style"
+        ],
+        "rank": "5",
+        "name": "polynian_v1.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1483",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "space",
+            "hell",
+            "heaven",
+            "war",
+            "style"
+        ],
+        "rank": "60",
+        "name": "djzWarInHeavenV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1571",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "cyber punk",
+            "cyber",
+            "big",
+            "shan",
+            "cyberpunk",
+            "style"
+        ],
+        "rank": "61",
+        "name": "djzCYBERSHANV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1512",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "style"
+        ],
+        "rank": "62",
+        "name": "djzGRIMEmpireV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1480",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "survival",
+            "desert",
+            "left",
+            "no",
+            "style",
+            "men",
+            "women"
+        ],
+        "rank": "63",
+        "name": "djzNoMenLeftV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1434",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "ronin",
+            "fox",
+            "style"
+        ],
+        "rank": "64",
+        "name": "djzFoxRoninV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1446",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "daemon",
+            "assassin",
+            "style"
+        ],
+        "rank": "65",
+        "name": "djzDaemonAssassinV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/48532",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            ""
+        ],
+        "rank": "66",
+        "name": "azaria_v10_trainingData.zip"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1479",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "elves",
+            "santas",
+            "style"
+        ],
+        "rank": "67",
+        "name": "djzSantasElvesV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1481",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "sisters",
+            "ugly",
+            "style"
+        ],
+        "rank": "68",
+        "name": "djzUglySistersV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1507",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "style"
+        ],
+        "rank": "69",
+        "name": "djzMechaBowlV4_4.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1387",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "spirits",
+            "demons",
+            "style"
+        ],
+        "rank": "6",
+        "name": "djzDemonSpiritsV0_0.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1519",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "bowl",
+            "mecha",
+            "style"
+        ],
+        "rank": "70",
+        "name": "djzMechaBowlV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/79759",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "character",
+            "sexy"
+        ],
+        "rank": "71",
+        "name": "hehehehe_v10_trainingData.zip"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/72104",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "character"
+        ],
+        "rank": "72",
+        "name": "beeer_v10_trainingData.zip"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/51224",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "doom",
+            "death",
+            "epic",
+            "end",
+            "post-apocalyptic",
+            "empty space"
+        ],
+        "rank": "73",
+        "name": "guangSTraditional_v10_trainingData.zip"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/65766",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "character",
+            "pokemon"
+        ],
+        "rank": "74",
+        "name": "lanaPokemon_v10.safetensors"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/3865",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "anime",
+            "style"
+        ],
+        "rank": "7",
+        "name": "belleanime_10b.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1487",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "race",
+            "planet",
+            "style"
+        ],
+        "rank": "8",
+        "name": "djzPlanetRaceV8_8.pt"
+    },
+    {
+        "downloadUrl": "https://civitai.com/api/download/models/1490",
+        "trainedWords": [
+            ""
+        ],
+        "baseModel": "SD 1.5",
+        "tags": [
+            "neon",
+            "streets",
+            "style"
+        ],
+        "rank": "9",
+        "name": "djzNeonStreetV4_4.pt"
+    }
+]
