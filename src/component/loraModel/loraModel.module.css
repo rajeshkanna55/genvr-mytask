@@ -1,0 +1,22 @@
+.button_aesthetic
+{
+    color: white;
+    background-color: #4E9BA1;
+    padding: 5px 25px;
+    border-radius: 20px;
+    border: none;
+}
+.model_lora
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input_seed_field
+{
+    font-size: 14px;
+    width: 100px;
+   border-radius: 5px;
+   outline: none;
+   border: 1px solid #73f8e2;
+}

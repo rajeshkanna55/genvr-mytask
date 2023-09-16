@@ -2,26 +2,56 @@ import { useRef, useState } from 'react';
 import style from './control.module.css';
 import Image from 'next/image';
 import FileUploadIcon from '@mui/icons-material/FileUpload';
+import CloseIcon from '@mui/icons-material/Close';
+
 export const Control=()=>{
-    const [selectedFile, setSelectedFile] = useState(null),
+    const [show, setShow] = useState(null),
           [selectedImage,setSelectedImage] = useState(null);
+    const control = [
+      "All",
+      "Canny",
+      "Depth",
+      "Normal",
+      "Depth",
+      "OpenPose",
+      "MLSD",
+      "Lineart",
+      "SoftEdge",
+      "Scribble",
+      "Seg",
+      "Shuffle",
+      "Tile",
+      "Inpaint",
+      "IP2P",
+      "Reference",
+      "T2lA"
+    ];
     const imgRef = useRef();
-    console.log(selectedFile);
+   
     const handleFileDrop = (e) => {
       e.preventDefault();
       const file = e.dataTransfer.files[0];
-      setSelectedFile(file);
-      if (selectedFile) {
-        const reader = new FileReader();
-        reader.onload = (event) => {
-          setSelectedImage(event.target.result);
-        };
-        reader.readAsDataURL(file);
+      if(file)
+      {
+        setSelectedImage(file);
+        const imageDrag = URL.createObjectURL(file);
+        setShow(imageDrag);
+      }
+      
+    };
+    const handleFile = (e) => {
+      e.preventDefault();
+      const file_show= e.target.files[0];
+      if(file_show)
+      {
+        const imageUpload = URL.createObjectURL(file_show);
+        setSelectedImage(file_show);
+        setShow(imageUpload);
       }
     };
-    const handleDragOver = (e) => {
-      e.preventDefault();
-    };
+  const  handleDragOver= (e) =>{
+        e.preventDefault();
+  }
    
     return (
       <>
@@ -47,31 +77,31 @@ export const Control=()=>{
             onDragOver={handleDragOver}
             className={style.file_upload}
           >
-            {selectedFile ? (
-              <div>
-                {/* <Image
-                  src={selectedImage}
-                  alt="Image"
-                  width={80}
-                  height={80}
-                /> */}
-                <h1>{selectedFile.name}</h1>
-              </div>
+            {show ? (
+              <>
+                <Image src={show} alt="Image" width={190} height={180} className={style.curve_image_control}/>
+                <div className={style.like_button_control}>
+                  <button
+                    className={style.like_button_place_control}
+                    onClick={() => {
+                      setSelectedImage(null);
+                      setShow(null);
+                    }}
+                  >
+                    <CloseIcon sx={{ color: "white" }} />
+                  </button>
+                </div>
+              </>
             ) : (
               <>
-                <input
-                  type="file"
-                  onChange={(e) => setSelectedFile(e.target.files[0])}
-                  ref={imgRef}
-                  hidden
-                />
+                <input type="file" onChange={handleFile} ref={imgRef} hidden />
                 <div
                   className="text-center"
                   onClick={() => imgRef.current.click()}
                   style={{ cursor: "pointer" }}
                 >
-                  <p>Drop files Here</p>
-                  <dr></dr>
+                  <label>Drop files Here</label>
+                  <br></br>
                   <FileUploadIcon sx={{ width: "40px", height: "40px" }} />
                 </div>
               </>
@@ -102,10 +132,11 @@ export const Control=()=>{
           <br></br>
           <label>Control Types</label>
           <select name="control" className={style.no_of_control_unit}>
-            <option value="1">All</option>
-            <option value="1">2</option>
-            <option value="1">3</option>
-            <option value="1">4</option>
+         
+           {control &&
+            control.map((item)=>(
+              <option value={item} key={item}>{item}</option>
+            ))}
           </select>
           <div className={style.control_models}>
             <div>
@@ -168,26 +199,24 @@ export const Control=()=>{
               <br></br>
               <select name="control" className={style.no_control}>
                 <option value="1">Balanced</option>
-                <option value="1">2</option>
-                <option value="1">3</option>
-                <option value="1">4</option>
+                <option value="1">My prompt</option>
+                <option value="1">Controlnet</option>              
               </select>
             </div>
             <div>
               <label>Resize Mode</label>
               <br></br>
               <select name="control" className={style.no_control}>
+                <option value="1">Just Resie</option>
                 <option value="1">Crop and Resize</option>
-                <option value="1">2</option>
-                <option value="1">3</option>
-                <option value="1">4</option>
+                <option value="1">Resize and Fill</option>
               </select>
             </div>
           </div>
           <br></br>
           <div className={style.control_models}>
-          <button className={style.button_control}>Reset</button>
-          <button className={style.button_control}>Save</button>
+            <button className={style.button_control}>Reset</button>
+            <button className={style.button_control}>Save</button>
           </div>
         </div>
       </>

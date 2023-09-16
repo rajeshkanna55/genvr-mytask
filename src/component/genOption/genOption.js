@@ -4,10 +4,11 @@ import { Control } from "../control/control";
 import { ImageBar } from "../image/imageBar";
 
  const GenOption=({option,handlePattern})=>{
+  console.log(option);
     let showComponent;
     switch (option) {
       case 0:
-        showComponent = (<><Basic handlePattern={handlePattern}/></>);
+        showComponent = (<><Basic/></>);
         break;
       case 1:
         showComponent = (<><Advanced/></>);

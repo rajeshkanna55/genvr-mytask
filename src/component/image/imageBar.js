@@ -11,13 +11,11 @@ export const ImageBar = () => {
     const handleFileDrop = (e) => {
         e.preventDefault();
         const file = e.dataTransfer.files[0];
-        console.log(file);
         if(file)
         {
           setSelectedImage(file);
           const imageDrag = URL.createObjectURL(file);
           setShow(imageDrag);
-          console.log(imageDrag);
         }
         
       };
@@ -45,7 +43,6 @@ export const ImageBar = () => {
           >
             {show ? (
               <>
-                
                   <Image
                     src={show}
                     alt="Image"
@@ -70,7 +67,7 @@ export const ImageBar = () => {
                   onClick={() => imgRef.current.click()}
                   style={{ cursor: "pointer" }}
                 >
-                  <p>Drop files Here</p>
+                  <label>Drop files Here</label>
                   <br></br>
                   <FileUploadIcon sx={{ width: "40px", height: "40px" }} />
                 </div>

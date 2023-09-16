@@ -18,7 +18,36 @@
     text-align: center;
     border-radius: 8px;
     padding: 3px;
-    background-color: #FACECE;
     font-size: 10px; 
     margin: 0;
 }
+.image_like
+    {
+        position: relative;
+    }
+    .tab_image_lora
+    {
+        border-radius: 10px;
+        width:95%;
+        height: 50%; 
+        display: block; 
+        margin: auto;
+    }
+
+    .like_button
+    {
+        position: absolute;
+        top: 0px;
+        right: 4px;
+    }
+    .info_place
+    {
+        position: absolute;
+        top: 0px;
+        right: 68px;
+    }
+    
+    .info_button
+    {
+        color: gray;
+    }

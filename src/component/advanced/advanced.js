@@ -1,10 +1,7 @@
 import { Accordion, AccordionDetails, AccordionSummary, Chip, Typography } from '@mui/material';
 import style from './advanced.module.css'
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 export const Advanced = () => {
-    const handleChip=()=>{
-
-    }
+    
   return (
     <>
       <div className="container-fluid">
@@ -27,7 +24,13 @@ export const Advanced = () => {
           </label>
           <input type="text" className={style.input_range_variation} />
         </div>
-        <input type="range" className={style.advanced_range} />
+        <input
+          type="range"
+          min={0}
+          max={1}
+          defaultValue={0}
+          className={style.advanced_range}
+        />
         <div className={style.range_variation}>
           <label>
             Resize seed from width
@@ -35,13 +38,25 @@ export const Advanced = () => {
           </label>
           <input type="text" className={style.input_range_variation} />
         </div>
-        <input type="range" className={style.advanced_range} />
+        <input
+          type="range"
+          min={0}
+          max={1}
+          defaultValue={0}
+          className={style.advanced_range}
+        />
         <div className={style.range_variation}>
           <label>
             Resize seed from height
             <span title="This is a hint or tooltip"></span>
           </label>
-          <input type="text" className={style.input_range_variation} />
+          <input
+            type="text"
+            min={0}
+            max={1}
+            defaultValue={0}
+            className={style.input_range_variation}
+          />
         </div>
         <input type="range" className={style.advanced_range} />
         {/* <Accordion sx={{ borderRadius: "5px" }}>
@@ -111,6 +126,97 @@ export const Advanced = () => {
           <Chip label="Textual version" onClick={handleChip} />
           <Chip label="Lora" onClick={handleChip} />
         </div> */}
+        {/* <label>Image Embedders</label> */}
+        {/* <Accordion sx={{ borderRadius: "5px" }}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            sx={{ height: "40px" }}
+          >
+            <Typography>Select Embeddings!</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+           <p>This Is The Select Embedding Part</p>
+          </AccordionDetails>
+        </Accordion> */}
+        <label>Aesthetic Text For Imgs</label>
+        <textarea
+          className={style.text_field_aesthetic}
+          placeholder="For roatation of feature space of the imgs embs"
+        />
+        <div className={style.range_variation}>
+          <label>
+            Aesthetic Weight
+            <span title="This is a hint or tooltip"></span>
+          </label>
+          <input
+            type="text"
+            className={style.input_range_variation}
+            defaultValue={0.9}
+          />
+        </div>
+        <input
+          type="range"
+          min={0.0}
+          max={1.0}
+          defaultValue={0.9}
+          className={style.advanced_range}
+        />
+        <div className={style.range_variation}>
+          <label>
+            Aesthetic Steps
+            <span title="This is a hint or tooltip"></span>
+          </label>
+          <input
+            type="text"
+            className={style.input_range_variation}
+            value={5}
+          />
+        </div>
+        <input
+          type="range"
+          min={0}
+          max={50}
+          defaultValue={5}
+          className={style.advanced_range}
+        />
+        <label>
+          <strong>Learning Rate</strong>
+        </label>
+        <input type="text" className={style.variation_seed} defaultValue={0.0001} />
+        <div className={style.range_variation}>
+          <label>
+            Slerp Angle
+            <span title="This is a hint or tooltip"></span>
+          </label>
+          <input
+            type="text"
+            className={style.input_range_variation}
+            defaultValue={0.1}
+          />
+        </div>
+        <input
+          type="range"
+          min={0.0}
+          max={1.0}
+          defaultValue={0.1}
+          className={style.advanced_range}
+        />
+        <div className={style.range_variation}>
+          <div className="d-flex">
+            <label style={{ fontSize: "13px", padding: "3px" }}>
+              slerp interpolation
+            </label>
+            <input type="checkbox" />
+          </div>
+          <div className="d-flex">
+            <label style={{ fontSize: "13px", padding: "3px" }}>
+              Is Negative Text
+            </label>
+            <input type="checkbox" />
+          </div>
+        </div>
         <div className={style.range_variation}>
           <button className={style.button_aesthetic}>Reset</button>
           <button className={style.button_aesthetic}>Save</button>

@@ -1,4 +1,4 @@
-export const baseModel=[
+[
     {
         "downloadUrl": "https://civitai.com/api/download/models/15236",
         "trainedWords": [
@@ -1390,4 +1390,4 @@ export const baseModel=[
         "rank": "9",
         "name": "consistentFactorEuclid_euclidCinematicV61.safetensors"
     }
-];
+]

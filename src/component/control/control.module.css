@@ -24,6 +24,8 @@
 }
 .file_upload
 {
+    position:relative;
+    margin: 8px 0;
     width:100%;
     height: 200px;
     display: flex;
@@ -68,4 +70,21 @@
     padding: 5px 25px;
     border-radius: 20px;
     border: none;
+}
+.like_button_control
+{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+}
+.like_button_place_control
+{
+    background-color: gray;
+    border-radius: 45%;
+    outline: none;
+    border: none;
+}
+.curve_image_control
+{
+    border-radius: 10px;
 }

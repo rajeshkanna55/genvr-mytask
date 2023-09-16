@@ -1,0 +1,122 @@
+.Selected_item
+{
+    height: 200px;
+    width: auto;
+    overflow: auto;
+    display: flex;
+}
+.Selected_item::-webkit-scrollbar {
+    height: 8px;
+}
+.Selected_item::-webkit-scrollbar-thumb {  
+    background-color: #44d1f5;
+    border-radius: 5px;
+}
+.Selected_item_style
+{
+    height: 150px;
+    width: auto;
+    overflow: auto;
+    display: flex;
+}
+.Selected_item_style::-webkit-scrollbar {
+    height: 8px;
+}
+.Selected_item_style::-webkit-scrollbar-thumb {  
+    background-color: #44d1f5;
+    border-radius: 5px;
+}
+.card_model
+{
+    margin:10px;
+    width:85px;
+    height : 100px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.tab_image_model
+{
+    border-radius: 10px;
+    width:95%;
+    height: 80%; 
+    display: block; 
+    margin: auto;
+}
+.card_inverse
+{
+    margin: 0 10px;
+    width: 95px;
+    height : 180px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.image_like
+    {
+        position: relative;
+    }
+    .like_button
+    {
+        position: absolute;
+        top: 0px;
+        right: 4px;
+    }
+    .info_place
+    {
+        position: absolute;
+        top: 0px;
+        right: 68px;
+    }
+    
+    .info_button
+    {
+        color: gray;
+    }
+.tab_image_inverse
+{
+    border-radius: 10px;
+    width:95%;
+    height: 50%; 
+    display: block; 
+    margin: auto;
+}
+.chip_inverse
+{
+    
+    text-align: center;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 10px; 
+    margin: 0;
+}
+.card_lora
+{
+    margin: 0 10px;
+    width: 95px;
+    height : 170px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.tab_image_lora
+    {
+        border-radius: 10px;
+        width:95%;
+        height: 50%; 
+        display: block; 
+        margin: auto;
+    }
+    .chip_lora
+    {
+        text-align: center;
+        border-radius: 8px;
+        padding: 3px;
+        font-size: 10px; 
+        margin: 0;
+    }
+    .card_artist_image
+{
+    border-radius: 10px;
+    width:90%;
+    height: 80%; 
+    display: block; 
+    margin: auto;
+}
