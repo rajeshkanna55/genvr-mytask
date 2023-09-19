@@ -8,11 +8,14 @@ import Loader from '../loader/loader';
 import pic from '../../public/assets/pic9.jpg';
 import InfoIcon from '@mui/icons-material/Info';
 import  MoreVertIcon from '@mui/icons-material/MoreVert';
+import { Search } from '../search/search';
+
 export const  ArtistStyle = () => {
      const [subValue,setSubValue] = useState(''),
            [loading,setLoading] = useState(true),
            [data,setData] = useState(artist),
-           [seckey,setSeckey] = useState('');
+           [seckey,setSeckey] = useState(''), 
+           [val,setVal] = useState();
          
       // const handleFirst = (e) => {
       //    var one = e.target.value; 
@@ -35,6 +38,9 @@ export const  ArtistStyle = () => {
       //       }
       //    }
       // }
+      const handleSelect=(index)=>{
+        setVal(index);
+       }
        const handleDrag = (e) => {
           console.log('clicked');
        }   
@@ -121,7 +127,7 @@ export const  ArtistStyle = () => {
                       alt="styles"
                       className={style.card_artist_image}
                     />
-                    <div className={style.like_button}>
+                    <div className={style.like_button}  onClick={() => handleSelect(index)}>
                       <MoreVertIcon
                         sx={{
                           color: "white",
@@ -129,9 +135,15 @@ export const  ArtistStyle = () => {
                           height: "20px",
                           backgroundColor: "gray",
                           borderRadius: "50%",
+                          cursor: 'pointer'
                         }}
                       />
                     </div>
+                    {val === index ? (
+                      <div className={style.chip_select}>
+                        <button className={style.select_btn}>Select</button>
+                      </div>
+                    ) : null}
                     {/* <div className={style.info_place}>
                     <Tooltip title={`downloadUrl:${item?.downloadUrl}.TrainedWords:${item?.trainedWords.map((item)=>item)}.BaseModel:${item?.baseModel}.Tags:${item?.tags.map((item)=>item)}`} placement='left'>
                         <InfoIcon className={style.info_button} />

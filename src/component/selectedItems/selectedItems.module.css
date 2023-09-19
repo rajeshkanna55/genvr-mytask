@@ -70,6 +70,7 @@
     .info_button
     {
         color: gray;
+        cursor: pointer;
     }
 .tab_image_inverse
 {
@@ -119,4 +120,29 @@
     height: 80%; 
     display: block; 
     margin: auto;
+}
+
+.card_embedd
+{
+    margin: 0 10px;
+    width: 95px;
+    height : 180px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.tab_image_embedd
+{
+    border-radius: 10px;
+    width:95%;
+    height: 50%; 
+    display: block; 
+    margin: auto;
+}
+.chip_embedd
+{
+    text-align: center;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 10px; 
+    margin: 0;
 }

@@ -1,6 +1,6 @@
-import { Card, CardActions, Chip, Grid, Pagination, Stack, Tooltip } from "@mui/material"
+import { Card, Grid, Pagination, Tooltip } from "@mui/material"
 import Image from "next/image"
-import { lora } from "../../public/constants/constans"
+import { categories, fixedColors, lora } from "../../public/constants/constans"
 import style from './textInverse.module.css';
 import pic from '../../public/assets/pic10.jpg';
 import text from '../../public/data/textual_inversion.json';
@@ -8,15 +8,40 @@ import { useState } from "react";
 import Loader from "../loader/loader";
 import InfoIcon from '@mui/icons-material/Info';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { Search } from "../search/search";
+import { makeStyles } from "@mui/styles";
+
+ const useStyles = makeStyles((theme) => ({
+    customTooltip: {
+      backgroundColor: "White",
+      color: "black", 
+    },
+  }));
 export const TextInverse = () => {
-  const [loading,setLoading] = useState(true);
+  const [loading,setLoading] = useState(true),
+        [val,setVal] = useState();
   const data = text;
   setTimeout(()=>{
      setLoading(false);
-  },4000)
+  },4000);
+   const handleSelect=(index)=>{
+    setVal(index);
+   }
+  const classes = useStyles();
     return (
       <>
         <Loader loading={loading} />
+        <label>
+          <strong>TextInverse Category</strong>
+        </label>
+        <select name="sampling" className={style.sampling_select_option}>
+          <option value="Euler a" disabled selected>Categaory</option>
+          {categories &&
+          categories.map((items,index)=>(
+            <option key={items} value={items}>{items}</option>
+          ))}
+        </select>
+        <Search title='TextInverse search'/>
         {data &&
           data.map((item, index) => {
             var pro = item?.name?.split('.');
@@ -29,7 +54,11 @@ export const TextInverse = () => {
                       alt="styles"
                       className={style.tab_image_inverse}
                     />
-                    <div className={style.like_button}>
+                    <div
+                      className={style.like_button}
+                      value={index}
+                      onClick={() => handleSelect(index)}
+                    >
                       <MoreVertIcon
                         sx={{
                           color: "white",
@@ -37,11 +66,69 @@ export const TextInverse = () => {
                           height: "20px",
                           backgroundColor: "gray",
                           borderRadius: "50%",
+                          cursor: "pointer"
                         }}
                       />
                     </div>
+                    {val === index ? (
+                      <div className={style.chip_select}>
+                        <button className={style.select_btn}>Select</button>
+                      </div>
+                    ) : null}
                     <div className={style.info_place}>
-                    <Tooltip title={`downloadUrl:${item?.downloadUrl}.TrainedWords:${item?.trainedWords.map((item)=>item)}.BaseModel:${item?.baseModel}.Tags:${item?.tags.map((item)=>item)}`} placement='left'>
+                      <Tooltip
+                        classes={{ tooltip: classes.customTooltip }}
+                        title={
+                          <div>
+                            <p style={{ margin: "0" }}>
+                              <strong>name :</strong>
+                              {pro[0]}
+                            </p>
+                            <p style={{ margin: "0" }}>
+                              <strong>downloadurl:</strong>
+                              {" " + item?.downloadUrl}
+                            </p>
+                            <p style={{ margin: "0" }}>
+                              <strong>Base Model :</strong>
+                              {item?.baseModel}
+                            </p>
+                            <p style={{ margin: "0" }}>
+                              <strong>Tags :</strong>
+                            </p>
+                            <Grid container>
+                              {item?.tags.map((data, index) => (
+                                <div
+                                  key={index}
+                                  style={{
+                                    backgroundColor: fixedColors[index],
+                                  }}
+                                  className={style.chip_inverse}
+                                >
+                                  {data}
+                                </div>
+                              ))}
+                            </Grid>
+                            <p style={{ margin: "0" }}>
+                              <strong>TrainedWords :</strong>
+                            </p>
+                            <Grid container>
+                              {item?.trainedWords.map((data, index) => (
+                                <div
+                                  key={index}
+                                  style={{
+                                    backgroundColor:
+                                    fixedColors[index]
+                                  }}
+                                  className={style.chip_inverse}
+                                >
+                                  {data}
+                                </div>
+                              ))}
+                            </Grid>
+                          </div>
+                        }
+                        placement="left"
+                      >
                         <InfoIcon className={style.info_button} />
                       </Tooltip>
                     </div>
@@ -67,15 +154,7 @@ export const TextInverse = () => {
                             <div
                               style={{
                                 backgroundColor:
-                                  subIndex === 0
-                                    ? "#EDE5FF"
-                                    : subIndex === 1
-                                    ? "#FBFFD5"
-                                    : subIndex === 2
-                                    ? "#EAFFF4"
-                                    : subIndex === 3
-                                    ? "#A7D6D7"
-                                    : null,
+                                fixedColors[subIndex]
                               }}
                               className={style.chip_inverse}
                             >

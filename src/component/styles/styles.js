@@ -6,17 +6,22 @@ import Loader from "../loader/loader"
 import { useState } from "react"
 import InfoIcon from '@mui/icons-material/Info';
 import  MoreVertIcon from '@mui/icons-material/MoreVert';
+import { Search } from "../search/search"
 export const Styles =() =>{
-  const [loading,setLoading] = useState(true);
+  const [loading, setLoading] = useState(true),
+    [val, setVal] = useState();
+  const handleSelect=(index)=>{
+    setVal(index);
+   }
   setTimeout(()=>{
      setLoading(false);
   },4000)
     return (
       <>
         <Loader loading={loading} />
+        <Search title='Style Search'/>
         {lora &&
           lora.map((item, index) => {
-            var pro = item?.name?.split('.');
             return index < 15 ? (
               <Grid xs={3} item key={index}>
                 <Card className={style.card_model}>
@@ -26,7 +31,7 @@ export const Styles =() =>{
                       alt="styles"
                       className={style.tab_image_model}
                     />
-                    <div className={style.like_button}>
+                    <div className={style.like_button}  onClick={() => handleSelect(index)}>
                       <MoreVertIcon
                         sx={{
                           color: "white",
@@ -34,14 +39,15 @@ export const Styles =() =>{
                           height: "20px",
                           backgroundColor: "gray",
                           borderRadius: "50%",
+                          cursor: 'pointer'
                         }}
                       />
                     </div>
-                    {/* <div className={style.info_place}>
-                      <Tooltip title={`name:${pro[0]}`}>
-                        <InfoIcon className={style.info_button} />
-                      </Tooltip>
-                    </div> */}
+                    {val === index ? (
+                      <div className={style.chip_select}>
+                        <button className={style.select_btn}>Select</button>
+                      </div>
+                    ) : null}
                   </div>
                   <p className="text-center" style={{ fontSize: "12px" }}>
                     <strong>{item?.name}</strong>

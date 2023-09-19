@@ -75,3 +75,52 @@ export const select = {
   ],
   "Lora Model Gallery": ["My models", "Saved models", "Publicly shared models"],
 };
+
+export const categories = [
+  "All",
+  "Celebrity",
+  "PhotoRealistic",
+  "Realistic",
+  "Style",
+  "Lora",
+  "Art Style",
+  "Illustration",
+  "Anime",
+  "Character",
+  "Game Character",
+  "Video Game",
+  "Clothing",
+  "Fantasy",
+  "Concept",
+  "Guide",
+  "Others",
+];
+
+export const fixedColors = [
+  '#E9A292',
+  '#E9CE92',
+  '#D9E992',
+  '#AEE992',
+  '#92E9A2',
+  '#92E9CE',
+  '#A8DF8E',
+  '#D67BFF',
+  '#CAEDFF',
+  '#ADC4CE',
+  '#7EAA92',
+  '#FBA1B7',
+  '#FFDDCC',
+  '#9BE8D8',
+  '#FF9B9B',
+  '#967E76',
+  '#79E0EE',
+  '#C4DFDF',
+  '#FEA1A1',
+  '#E3F2C1',
+  '#D6E8DB',
+  '#FEFF86',
+  '#FFF2CC',
+  '#B2A4FF',
+  '#3A98B9'
+];
+

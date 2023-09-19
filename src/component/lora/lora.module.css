@@ -51,3 +51,65 @@
     {
         color: gray;
     }
+    .sampling_select_option{
+        width: 100%;
+        height: 40px;
+        border: 1px solid #73f8e2;
+        outline: none;
+        border-radius: 10px;
+    }
+    .variation_seed
+{
+    margin: 8px 0;
+    width: 100%;
+    height: 40px;
+    outline:none;
+    border: 1px solid #73f8e2;
+    border-radius: 8px;
+}
+/* .info_card{
+    width: 100px;
+    height: 200px;
+    background-color: azure;
+    position: absolute;
+        top: 0px;
+        right: 68px;
+} */
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 1;
+}
+.chip_select
+    {
+        text-align: center;
+        width: 70px;
+        position: absolute;
+        top: 25px;
+        right: 0px;
+    }
+    .select_btn
+    {
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        font-size: 13px;
+        padding: 2px 15px;
+        background-color: white;
+    }

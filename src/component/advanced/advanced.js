@@ -1,4 +1,4 @@
-import { Accordion, AccordionDetails, AccordionSummary, Chip, Typography } from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary, Chip, Divider, Typography } from '@mui/material';
 import style from './advanced.module.css'
 export const Advanced = () => {
     
@@ -140,6 +140,9 @@ export const Advanced = () => {
            <p>This Is The Select Embedding Part</p>
           </AccordionDetails>
         </Accordion> */}
+        <Divider sx={{backgroundColor:'black',height:'2px'}}/>
+        <label ><strong>Aesthetic Embeddings Options</strong></label>
+        <br></br>
         <label>Aesthetic Text For Imgs</label>
         <textarea
           className={style.text_field_aesthetic}

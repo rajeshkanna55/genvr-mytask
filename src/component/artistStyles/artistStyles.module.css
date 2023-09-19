@@ -71,3 +71,20 @@
         color: gray;
     }
 
+    .chip_select
+    {
+        text-align: center;
+        width: 70px;
+        position: absolute;
+        top: 25px;
+        right: 0px;
+    }
+    .select_btn
+    {
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        font-size: 13px;
+        padding: 2px 15px;
+        background-color: white;
+    }

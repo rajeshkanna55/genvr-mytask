@@ -50,4 +50,29 @@
     .info_button
     {
         color: gray;
+        cursor: pointer;
+    }
+    .sampling_select_option{
+        width: 100%;
+        height: 40px;
+        border: 1px solid #73f8e2;
+        outline: none;
+        border-radius: 10px;
+    }
+    .chip_select
+    {
+        text-align: center;
+        width: 70px;
+        position: absolute;
+        top: 25px;
+        right: 0px;
+    }
+    .select_btn
+    {
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        font-size: 13px;
+        padding: 2px 15px;
+        background-color: white;
     }
