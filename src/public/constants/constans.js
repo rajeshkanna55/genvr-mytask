@@ -16,6 +16,73 @@ import pic17 from '../assets/pic17.png';
 import pic19 from '../assets/pic19.png';
 import pic20 from '../assets/pic20.png';
 import pic21 from '../assets/pic21.png';
+import img1 from '../assets/3d_character.webp';
+import adorable from '../assets/adorable.webp';
+import animePotrait from '../assets/anime_potrait.webp';
+import archViz from '../assets/arch_viz.webp';
+import bnwFilmNoir from '../assets/b_n_w_film_noir.png';
+import beautifulPotrait from '../assets/beautiful_potrait.webp';
+import building from '../assets/building.webp';
+import caricature from '../assets/caricature.webp';
+import cgiCharacter from '../assets/cgi_character.webp';
+import comicArt from '../assets/comic_art.webp';
+import controlRoom from '../assets/control_room.webp';
+import cuteCreature from '../assets/cute_creature.png';
+import cuteCreatureWebp from '../assets/cute_creature.webp';
+import cuteKawaii from '../assets/cute_kawaii.webp';
+import cyberPunk from '../assets/cyber_punk.webp';
+import dark from '../assets/dark.webp';
+import dataViz from '../assets/data_viz.webp';
+import defaultNegLowToken from '../assets/default_neg_low_token.png';
+import defaultNegSfw from '../assets/default_neg_sfw.png';
+import defaultNeg from '../assets/default_neg.png';
+import digitalArt from '../assets/digital_art.webp';
+import digitalPainting from '../assets/digital_painting.png';
+import digitalPotrait from '../assets/digital_potrait.webp';
+import dramatic from '../assets/dramatic.webp';
+import drawing1 from '../assets/drawing1.webp';
+import drawing2 from '../assets/drawing2.webp';
+import fashion from '../assets/fashion.webp';
+import figurine from '../assets/figurine.webp';
+import ghibli from '../assets/ghibli.png';
+import girl from '../assets/girl.png';
+
+export const imageList = [
+  img1,
+  adorable,
+  aipic,
+  animePotrait,
+  archViz,
+  bnwFilmNoir,
+  beautifulPotrait,
+  building,
+  caricature,
+  cgiCharacter,
+  comicArt,
+  controlRoom,
+  cuteCreature,
+  cuteCreatureWebp,
+  cuteKawaii,
+  cyberPunk,
+  dark,
+  dataViz,
+  defaultNegLowToken,
+  defaultNegSfw,
+  defaultNeg,
+  digitalArt,
+  digitalPainting,
+  digitalPotrait,
+  dramatic,
+  drawing1,
+  drawing2,
+  fashion,
+  figurine,
+  ghibli,
+  girl,
+];
+
+
+
 export const lora = [
   { id: 1, name: "Athena", image: aipic },
   { id: 2, name: "Aphrodite", image: profile },
@@ -123,4 +190,56 @@ export const fixedColors = [
   '#B2A4FF',
   '#3A98B9'
 ];
+export const imgData = [
+  { id: 1, name: "Image 1", img: img1 },
+  { id: 2, name: "Adorable", img: adorable },
+  { id: 3, name: "Aipic", img: aipic },
+  { id: 4, name: "Anime Potrait", img: animePotrait },
+  { id: 5, name: "Arch Viz", img: archViz },
+  { id: 6, name: "BNW Film Noir", img: bnwFilmNoir },
+  { id: 7, name: "Beautiful Potrait", img: beautifulPotrait },
+  { id: 8, name: "Building", img: building },
+  { id: 9, name: "Caricature", img: caricature },
+  { id: 10, name: "CGI Character", img: cgiCharacter },
+];
+
+
+export const loraImg = [
+  { img: dark },
+  { img: dataViz },
+  { img: defaultNegLowToken },
+  { img: defaultNegSfw },
+  { img: defaultNeg },
+  { img: digitalArt },
+  { img: digitalPainting },
+  { img: digitalPotrait },
+  { img: dramatic },
+  { img: drawing1 },
+  { img: drawing2 },
+  { img: fashion },
+  { img: figurine },
+  { img: ghibli },
+  { img: girl },
+];
+
+export const filterNames = [
+  'horizontal_lines', 'extreme_offset_blue', 'extreme_offset_green',
+  'offset_green', 'extra_offset_blue', 'extra_offset_red', 'extra_offset_green',
+  'extreme_offset_red', 'specks_redscale', 'eclectic', 'pane', 'diagonal_lines',
+  'green_specks', 'casino', 'yellow_casino', 'green_diagonal_lines', 'offset',
+  'offset_blue', 'neue', 'sunset', 'specks', 'wood', 'lix', 'ryo', 'bluescale',
+  'solange', 'evening', 'crimson', 'teal_min_noise', 'phase', 'dark_purple_min_noise',
+  'coral', 'darkify', 'incbrightness', 'incbrightness2', 'invert', 'sat_adj', 'lemon',
+  'pink_min_noise', 'frontward', 'vintage', 'perfume', 'serenity', 'pink_aura', 'haze',
+  'cool_twilight', 'blues', 'horizon', 'mellow', 'solange_dark', 'solange_grey',
+  'zapt', 'eon', 'aeon', 'matrix', 'cosmic', 'min_noise', 'red_min_noise', 'matrix2',
+  'purplescale', 'radio', 'twenties', 'ocean', 'a', 'pixel_blue', 'greyscale', 'grime',
+  'redgreyscale', 'retroviolet', 'greengreyscale', 'warmth', 'green_med_noise',
+  'green_min_noise', 'blue_min_noise', 'rosetint', 'purple_min_noise'
+];
+
+export const filterObjects = filterNames.map((filterName) => ({
+  filter: filterName,
+}));
+
 

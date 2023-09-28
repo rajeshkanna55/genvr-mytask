@@ -10,6 +10,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import  MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Search } from '../search/search';
 import { makeStyles } from "@mui/styles";
+import { useMediaQuery } from 'react-responsive';
 
  const useStyles = makeStyles((theme) => ({
     customTooltip: {
@@ -20,7 +21,9 @@ import { makeStyles } from "@mui/styles";
 export const BaseModel = () => {
   const [loading, setLoading] = useState(true),
         [val, setVal] = useState();
+   const media = useMediaQuery({ query: "(min-width: 1224px)" });
    const data = base;
+   const pages = Math.ceil(data?.length/15);
     setTimeout(()=>{
        setLoading(false);
     },4000)
@@ -36,7 +39,7 @@ export const BaseModel = () => {
           data.map((item, index) => {
             var pro = item?.name.split('.');
             return index < 15 ? (
-              <Grid xs={3} item key={index}>
+              <Grid xs={4} sm={2} lg={3} item key={index}>
                 <Card className={style.card_inverse}>
                   <div className={style.image_like}>
                     <Image
@@ -113,7 +116,7 @@ export const BaseModel = () => {
                             ))}
                           </Grid>
                         </div>}
-                        placement="left"
+                        placement={media ? "left" :"top"}
                       >
                         <InfoIcon className={style.info_button} />
                       </Tooltip>
@@ -154,7 +157,7 @@ export const BaseModel = () => {
               </Grid>
             ) : null;
           })}
-            <Pagination count={20} siblingCount={0} />
+            <Pagination count={pages}  siblingCount={0} size={media ?'':'small'}/>
       </>
     );
 }

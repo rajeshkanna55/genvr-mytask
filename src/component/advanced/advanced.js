@@ -143,7 +143,7 @@ export const Advanced = () => {
         <Divider sx={{backgroundColor:'black',height:'2px'}}/>
         <label ><strong>Aesthetic Embeddings Options</strong></label>
         <br></br>
-        <label>Aesthetic Text For Imgs</label>
+        <label style={{margin:'8px 0'}}>Aesthetic Text For Imgs</label>
         <textarea
           className={style.text_field_aesthetic}
           placeholder="For roatation of feature space of the imgs embs"

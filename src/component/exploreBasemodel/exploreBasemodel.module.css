@@ -1,0 +1,70 @@
+.explore_card
+{
+    cursor: pointer;
+  width: 200px;
+  height: 300px;
+}
+.explore_card:hover
+{
+  box-shadow: 0px 0px 10px 5px gray;
+}
+.explore_image
+{
+    width: 100%;
+    height: 180px;
+    margin-top: 10px;
+}
+.explore_download{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 8px;
+    background-image: linear-gradient(to right ,#73F89D, #48A0F9);
+    border-radius: 8px;
+}
+.chip_embedd
+{
+    text-align: center;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 12px; 
+    margin: 0;
+}
+.image_icons
+{
+  position: relative;
+}
+.like_button
+{
+    position: absolute;
+    top: 6px;
+    right: 0px;
+}
+.chip_select
+    {
+        text-align: center;
+        width: 70px;
+        position: absolute;
+        top: 30px;
+        right: 7px;
+    }
+    .select_btn
+    {
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        font-size: 13px;
+        padding: 5px 20px;
+        background-color: white;
+    }
+    .info_place
+    {
+        position: absolute;
+        top: 6px;
+        right: 154px;
+    }
+    .info_button
+    {
+        color: gray;
+        cursor: pointer;
+    }

@@ -7,8 +7,9 @@ import { Styles } from "../styles/styles";
 import { TextInverse } from "../textInverse/textInverse";
 
 const OptionBar=({pattern})=>{
+      const key = parseInt(pattern);
     let styleComponent;
-    switch(pattern){
+    switch(key){
         case 0:
             styleComponent=(<><SelectedItems/></>);
             break;
@@ -31,7 +32,7 @@ const OptionBar=({pattern})=>{
             styleComponent=(<><Aesthetic/></>);
             break; 
         default:
-            styleComponent=(<></>)
+            styleComponent=(<><Lora/></>)
     }
     return(
         <>

@@ -41,6 +41,7 @@
     .info_button
     {
         color: gray;
+        cursor: pointer;
     }
     .chip_select
     {

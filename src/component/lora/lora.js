@@ -11,9 +11,10 @@ import AlertDialog from "../loraModel/loraModel";
 import InfoIcon from '@mui/icons-material/Info';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Search } from "../search/search";
-import { categories, fixedColors } from "../../public/constants/constans";
+import { categories, fixedColors, loraImg } from "../../public/constants/constans";
 import Info from "../info/info";
 import { makeStyles } from '@mui/styles';
+import { useMediaQuery } from "react-responsive";
 
 const useStyles = makeStyles((theme) => ({
   customTooltip: {
@@ -29,17 +30,12 @@ export const Lora = () => {
         [infoPop,setInfoPop] = useState(false),
         [val,setVal] = useState();
   const data = loraData;
+  const pages = Math.ceil(data?.length/15);
+  const media = useMediaQuery({ query: "(min-width: 1224px)" });
   const classes = useStyles();
   const handleSelect=(index)=>{
     setVal(index);
    }
-const handleInfo = (e) => {
-  
-  setInfoPop(true);
-}
-const handleCloseInfo = () => {
-  setInfoPop(false);
-}
   const handleClickOpen = (e) => {
     console.log(e); 
     setOpen(true);
@@ -51,7 +47,7 @@ const handleCloseInfo = () => {
   setTimeout(() => {
     setLoading(false);
   }, 4000);
-  
+  console.log(loraImg);
   return (
     <>
       <Loader loading={loading} />
@@ -70,7 +66,7 @@ const handleCloseInfo = () => {
         data.map((item, index) => {  
           var pro = item?.name?.split(".");
           return index < 15 ? (
-            <Grid xs={3} item key={index}>
+            <Grid xs={4} sm={2} lg={3} item key={index}>
               <Card
                 className={style.card_lora}
                 onClick={handleClickOpen}
@@ -212,7 +208,7 @@ const handleCloseInfo = () => {
             </Grid>
           ) : null;
         })}
-        <Pagination count={20}  siblingCount={0}/>
+        <Pagination count={pages}  siblingCount={0} size={media ?'':'small'}/>
       <AlertDialog open={open} handleClose={handleClose} />
     </>
   );

@@ -10,6 +10,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Search } from "../search/search";
 import { makeStyles } from "@mui/styles";
+import { useMediaQuery } from "react-responsive";
 
  const useStyles = makeStyles((theme) => ({
     customTooltip: {
@@ -21,6 +22,8 @@ export const TextInverse = () => {
   const [loading,setLoading] = useState(true),
         [val,setVal] = useState();
   const data = text;
+  const pages = Math.ceil(data?.length/15);
+  const media = useMediaQuery({ query: "(min-width: 1224px)" });
   setTimeout(()=>{
      setLoading(false);
   },4000);
@@ -46,7 +49,7 @@ export const TextInverse = () => {
           data.map((item, index) => {
             var pro = item?.name?.split('.');
             return index < 15 ? (
-              <Grid xs={3} item key={index}>
+              <Grid xs={4} sm={2} md={2} lg={3} item key={index}>
                 <Card className={style.card_inverse}>
                   <div className={style.image_like}>
                     <Image
@@ -171,7 +174,7 @@ export const TextInverse = () => {
               </Grid>
             ) : null;
           })}
-        <Pagination count={20} siblingCount={0} />
+        <Pagination count={pages} siblingCount={0} size={media ? '' :'small'}/>
       </>
     );
 }

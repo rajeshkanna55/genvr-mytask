@@ -3,10 +3,10 @@ import { Basic } from "../basic/basic";
 import { Control } from "../control/control";
 import { ImageBar } from "../image/imageBar";
 
- const GenOption=({option,handlePattern})=>{
-  console.log(option);
+ const GenOption=({option})=>{
+  const key = parseInt(option);
     let showComponent;
-    switch (option) {
+    switch (key) {
       case 0:
         showComponent = (<><Basic/></>);
         break;

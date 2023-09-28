@@ -2,7 +2,6 @@
 {
     height: 80px;
     width: 100px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +9,7 @@
 .logo_image
 {
     width: 60px;
-    height: 60px;
+    height: 55px;
     border-radius: 50%;
 }
 .profile_name
@@ -24,7 +23,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: white;
 }
 .navbar_profile
 {
@@ -63,4 +61,33 @@
     text-align: center;
     width: 200px;
     color:black;
+}
+.isMobile
+{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.ismobile_fullwidth
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.mobile_button
+{
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    
+}
+.mobile_button:hover
+{
+    transition: 0.2s;
+    box-shadow: 5px 5px 10px gray;
 }

@@ -1,0 +1,22 @@
+.filter_align
+{
+    height: 160px;
+    width: auto;
+    overflow: auto;
+}
+.filter_inner_style{
+    width: auto;
+    display: flex;
+}
+.filter_align::-webkit-scrollbar {
+    height: 8px;
+}
+.filter_align::-webkit-scrollbar-thumb {  
+    background-color: #44d1f5;
+    border-radius: 5px;
+}
+.image_filters{
+    width: 100px;
+    margin: 5px;
+   
+}

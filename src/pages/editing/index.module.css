@@ -1,0 +1,59 @@
+.fullpage_generation
+{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: whitesmoke;
+}
+
+.image_cont
+{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.side_image
+{
+  margin-top: 10%;
+  width: 95%;
+  height: 620px;
+  border-radius: 10px;
+}
+.align_image
+{
+    width: auto; 
+    height: auto; 
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    display: block; 
+    margin: auto;
+}
+.download_option
+{
+  position: absolute;
+  right: 13px;
+  top: 10px;
+}
+.chip_select
+{
+    text-align: center;
+    width: 70px;
+    position: absolute;
+    top: 25px;
+    right: 32px;
+}
+.mobile_adjust{
+  margin: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.canvas_container
+{
+  background-color: aqua;
+  position:relative;
+}

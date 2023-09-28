@@ -77,6 +77,7 @@
     outline: none;
     border: none;
     background-image: linear-gradient(to right ,#73F89D, #48A0F9);
+    border-radius: 8px;
 }
 .checkbox::-webkit-scrollbar {
     width: 8px;

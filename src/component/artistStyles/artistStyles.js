@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, Pagination, Paper, Stack, Tooltip } from '@mui/material';
+import { Card, Grid, Pagination, Paper, } from '@mui/material';
 import style from './artistStyles.module.css';
 import Image from 'next/image';
 import { lora } from '../../public/constants/constans';
@@ -9,6 +9,7 @@ import pic from '../../public/assets/pic9.jpg';
 import InfoIcon from '@mui/icons-material/Info';
 import  MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Search } from '../search/search';
+import { useMediaQuery } from 'react-responsive';
 
 export const  ArtistStyle = () => {
      const [subValue,setSubValue] = useState(''),
@@ -17,27 +18,7 @@ export const  ArtistStyle = () => {
            [seckey,setSeckey] = useState(''), 
            [val,setVal] = useState();
          
-      // const handleFirst = (e) => {
-      //    var one = e.target.value; 
-      //    setSubValue(one);
-      //    for(let key in data)
-      //    {
-      //       if(key === one)
-      //       {
-      //           for(let subkey in data[one])
-      //           {
-      //             if(isNaN(subkey))
-      //             {
-      //               console.log(subkey)
-      //             }
-      //             else{
-      //                  console.log(data[one]);
-      //                  break;
-      //             }
-      //           }
-      //       }
-      //    }
-      // }
+      const media = useMediaQuery({ query: "(min-width: 1224px)" });
       const handleSelect=(index)=>{
         setVal(index);
        }
@@ -119,7 +100,7 @@ export const  ArtistStyle = () => {
           lora.map((item, index) => {
             var pro = item?.name?.split('.');
             return index < 15 ? (
-              <Grid xs={3} item key={index}>
+              <Grid xs={4} sm={2} lg={3} item key={index}>
                 <Card className={style.card_artist}>
                   <div className={style.image_like}>
                     <Image
@@ -144,11 +125,6 @@ export const  ArtistStyle = () => {
                         <button className={style.select_btn}>Select</button>
                       </div>
                     ) : null}
-                    {/* <div className={style.info_place}>
-                    <Tooltip title={`downloadUrl:${item?.downloadUrl}.TrainedWords:${item?.trainedWords.map((item)=>item)}.BaseModel:${item?.baseModel}.Tags:${item?.tags.map((item)=>item)}`} placement='left'>
-                        <InfoIcon className={style.info_button} />
-                      </Tooltip>
-                    </div> */}
                   </div>
                   <p className="text-center" style={{ fontSize: "12px" }}>
                     <strong>{item?.name}</strong>{" "}
@@ -157,7 +133,7 @@ export const  ArtistStyle = () => {
               </Grid>
             ) : null;
           })}
-           <Pagination count={20} siblingCount={0} />
+           <Pagination count={20} siblingCount={0} size={media ?'':'small'} />
       </>
     );
 }

@@ -1,0 +1,49 @@
+.fullpage
+{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: whitesmoke
+}  
+.sampling_select_option{
+   width: 100%;
+   height: 40px;
+   border: 1px solid #73f8e2;
+   outline: none;
+   box-shadow: inset 2px 4px 10px gray;
+   border-radius: 10px;
+}
+/* .button
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} */
+.checkbox::-webkit-scrollbar {
+   width: 8px;
+ }
+.checkbox::-webkit-scrollbar-thumb {
+   background-color: #44d1f5;
+   border-radius: 8px;
+}
+.checkbox::-webkit-scrollbar-track {
+   width: 5px; /* Adjust the width as needed */
+}
+.search_option
+{
+   margin-top: 10px;
+   background-color: white;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 5px 5px 10px gray;
+}
+.checkbox
+{
+   margin-top: 20px;
+    width: 100%;
+    height: 390px;
+    overflow: auto;
+}

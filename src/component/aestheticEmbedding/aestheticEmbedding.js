@@ -11,6 +11,7 @@ import  MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Search } from "../search/search";
 import { makeStyles } from "@mui/styles";
 import { fixedColors } from "../../public/constants/constans";
+import { useMediaQuery } from "react-responsive";
 
  const useStyles = makeStyles((theme) => ({
     customTooltip: {
@@ -25,6 +26,8 @@ export const Aesthetic=() => {
           setVal(index);
         }
   const data = embedd;
+  const media = useMediaQuery({query:'(min-width: 1224px)'});
+  const pages = Math.ceil(data?.length/15);
    setTimeout(()=>{
       setLoading(false);
    },4000);
@@ -38,7 +41,7 @@ export const Aesthetic=() => {
           data.map((item, index) => {
             var pro = item?.name.split(".");
             return index < 15 ? (
-              <Grid xs={3} item key={index}>
+              <Grid xs={4} sm={2} lg={3} item key={index}>
                 <Card className={style.card_embedd}>
                   <div className={style.image_like}>
                     <Image
@@ -157,7 +160,7 @@ export const Aesthetic=() => {
               </Grid>
             ) : null;
           })}
-        <Pagination count={20} siblingCount={0} />
+        <Pagination count={pages} siblingCount={0} size={media ?'':'small'}/>
       </>
     );
 }

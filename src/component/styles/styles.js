@@ -7,9 +7,11 @@ import { useState } from "react"
 import InfoIcon from '@mui/icons-material/Info';
 import  MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Search } from "../search/search"
+import { useMediaQuery } from "react-responsive"
 export const Styles =() =>{
   const [loading, setLoading] = useState(true),
     [val, setVal] = useState();
+    const media = useMediaQuery({ query: "(min-width: 1224px)" });
   const handleSelect=(index)=>{
     setVal(index);
    }
@@ -23,7 +25,7 @@ export const Styles =() =>{
         {lora &&
           lora.map((item, index) => {
             return index < 15 ? (
-              <Grid xs={3} item key={index}>
+              <Grid xs={4} sm={2} lg={3} item key={index}>
                 <Card className={style.card_model}>
                   <div className={style.image_like}>
                     <Image
@@ -56,7 +58,7 @@ export const Styles =() =>{
               </Grid>
             ) : null;
           })}
-        <Pagination count={20} siblingCount={0} />
+        <Pagination count={20} siblingCount={0} size={media ?'':'small'} />
       </>
     );
 }
