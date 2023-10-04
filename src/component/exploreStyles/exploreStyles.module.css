@@ -2,7 +2,7 @@
 {
     cursor: pointer;
   width: 200px;
-  height: 300px;
+  height: 250px;
 }
 .explore_card:hover
 {
@@ -71,7 +71,7 @@
     .search_options
     {
         width:100%;
-        display: flex;
+        display:flex;
         align-items: center;
         justify-content: space-between;
         height: 80px;
@@ -85,4 +85,11 @@
         outline:none;
         border: 1px solid #73f8e2;
         border-radius: 8px;
+    }
+    .sampling_select_option{
+        width: 20%;
+        height: 40px;
+        border: 1px solid #73f8e2;
+        outline: none;
+        border-radius: 10px;
     }

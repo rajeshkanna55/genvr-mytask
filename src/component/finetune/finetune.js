@@ -1,3 +1,4 @@
+import { Tooltip } from '@mui/material';
 import style from './finetune.module.css';
 
 export default function Finetune({contrast,setContrast,saturate,setSaturate,brightness,setBrightness}){
@@ -11,6 +12,7 @@ export default function Finetune({contrast,setContrast,saturate,setSaturate,brig
           <div className={style.filter_option} style={{marginTop:'10px'}}>
             <label>Contrast</label>
             <br></br>
+            <Tooltip title={contrast/2} >
             <input
               type="range"
               min={0}
@@ -19,10 +21,12 @@ export default function Finetune({contrast,setContrast,saturate,setSaturate,brig
               className={style.advanced_range}
               onChange={handleContrast}
             />
+           </Tooltip> 
           </div>
           <div className={style.filter_option}>
             <label>Saturate</label>
             <br></br>
+            <Tooltip title={saturate/2} >
             <input
               type="range"
               min={0}
@@ -31,10 +35,12 @@ export default function Finetune({contrast,setContrast,saturate,setSaturate,brig
               className={style.advanced_range}
               onChange={(e)=>setSaturate(e.target.value)}
             />
+            </Tooltip>
           </div>
           <div className={style.filter_option}>
             <label>Brightness</label>
             <br></br>
+            <Tooltip title={brightness/2} >
             <input
               type="range"
               min={0}
@@ -43,6 +49,7 @@ export default function Finetune({contrast,setContrast,saturate,setSaturate,brig
               className={style.advanced_range}
               onChange={(e)=>setBrightness(e.target.value)}
             />
+            </Tooltip>
           </div>
         </div>
       </>

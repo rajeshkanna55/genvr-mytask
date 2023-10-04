@@ -1,0 +1,14 @@
+.download_option
+{
+  position: absolute;
+  right: 13px;
+  top: 10px;
+}
+.chip_select
+{
+    text-align: center;
+    width: 70px;
+    position: absolute;
+    top: 25px;
+    right: 32px;
+}

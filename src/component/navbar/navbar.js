@@ -10,7 +10,8 @@ import LeftSideBar from '../barMobile/barMobile';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 function Navbar({setOptionOpen,setModelOpen}){
-     const [option,setOption] = useState('TextBased');
+     const [option,setOption] = useState('TextBased'),
+          [pageName,setPageName] = useState('Text Based');
     const media = useMediaQuery({query:'(min-width: 1224px)'});
       const router = useRouter(); 
     return (
@@ -35,7 +36,7 @@ function Navbar({setOptionOpen,setModelOpen}){
                   <p>
                     <strong>James B.</strong>
                   </p>
-                  <a href="" style={{ color: "gray" }}>
+                  <a href="" style={{ color: "gray",margin:'0' }}>
                     View Profile
                   </a>
                 </div>
@@ -45,25 +46,42 @@ function Navbar({setOptionOpen,setModelOpen}){
         </div>
         {media ? (
           <>
-            <OptionPage />
+            <OptionPage setPageName={setPageName} />
           </>
         ) : (
           <>
             <div className={style.ismobile_fullwidth}>
               <div className={style.isMobile}>
                 <LeftSideBar setOption={setOption} />
-                <button
-                  className={style.mobile_button}
-                  onClick={() => setOptionOpen(1)}
-                >
-                  Options
-                </button>
-                <button
+                {/* {pageName === "Text Based" ||
+                pageName === "Image Based" ||
+                pageName === "Controlled Generation" ||
+                pageName === "By reference" ||
+                pageName === "Variations" ? ( */}
+
+                  <button
+                    className={style.mobile_button}
+                    onClick={() => setOptionOpen(1)}
+                  >
+                    Options
+                  </button>
+
+                {/* ) : null} */}
+                  {/* {pageName === "Text Based" ||
+                pageName === "Image Based" ||
+                pageName === "Controlled Generation" ||
+                pageName === "By reference" ||
+                pageName === "Variations" ? ( */}
+
+                  {/* <button
                   className={style.mobile_button}
                   onClick={() => setOptionOpen(2)}
                 >
                   Models
-                </button>
+                </button> */}
+
+             {/* ) : null} */}
+               
               </div>
             </div>
           </>

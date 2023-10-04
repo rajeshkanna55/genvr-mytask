@@ -1,44 +1,62 @@
 import { Card, Grid, Tooltip, Typography} from "@mui/material"
-import style from './exploreBasemodel.module.css';
+import style from './exploreStyles.module.css';
 import Image from "next/image";
-import base from '../../public/data/base_models.json';
-import { fixedColors, loraImg } from "../../public/constants/constans";
+import loraData from '../../public/data/loras.json';
+import { categories, combinedArray, fixedColors, greekGods, imageList, loraImg } from "../../public/constants/constans";
 import  MoreVertIcon from '@mui/icons-material/MoreVert';
 import { useState } from "react";
 import InfoIcon from '@mui/icons-material/Info';
 import { makeStyles } from "@mui/styles";
+import { lora } from "../../public/constants/constans";
 const useStyles = makeStyles((theme) => ({
   customTooltip: {
     backgroundColor: "White",
     color: "black", 
   },
 }));
-export default function ExploreBaseModel () {
+export default function ExploreStyles() {
     const [val,setVal] = useState(null);
     const classes = useStyles();
-    const data = base;
+    const data = loraData;
     const handleSelect=(index)=>{
       setVal(index);
     }
     return (
       <>
         <div className="container-fluid mx-4">
-          <div className={style.search_options}> 
-                <input type="search" placeholder="Search..." className={style.search_input}/>
-          </div>
+          {/* <div className="container-fluid"> */} 
+            <div className={style.search_options}>
+              <input
+                type="search"
+                placeholder="Search..."
+                className={style.search_input}
+              />
+              {/* <select name="sampling" className={style.sampling_select_option}>
+                <option value="Euler a" disabled selected>
+                  Categaory
+                </option>
+                {categories &&
+                  categories.map((items, index) => (
+                    <option key={items} value={items}>
+                      {items}
+                    </option>
+                  ))}
+              </select> */}
+            </div>
+          {/* </div> */}
         </div>
-        {data &&
-          data.map((items, index) => {
-            var name = items?.name.split(".");
+        {combinedArray &&
+          combinedArray.map((items, index) => {
+            // var name = items?.split(".");
             return (
               <Grid item lg={2} md={3} key={index}>
                 <Card className={style.explore_card}>
                   <div className="container-fluid">
-                    {loraImg[index] && (
+                    {items?.image && (
                       <div className={style.image_icons}>
                         <Image
-                          src={loraImg[index].img}
-                          alt={`BaseModel${name[0]}`}
+                          src={items?.image}
+                          alt={`${items?.name}`}
                           className={style.explore_image}
                         />
                         <div
@@ -61,7 +79,7 @@ export default function ExploreBaseModel () {
                             <button className={style.select_btn}>Select</button>
                           </div>
                         ) : null}
-                        <div className={style.info_place}>
+                        {/* <div className={style.info_place}>
                           <Tooltip
                             classes={{ tooltip: classes.customTooltip }}
                             title={
@@ -116,20 +134,21 @@ export default function ExploreBaseModel () {
                           >
                             <InfoIcon className={style.info_button} />
                           </Tooltip>
-                        </div>
+                        </div> */}
                       </div>
-                    )}
+                       )} 
+                       <br></br>
                     <Typography
-                      style={{ wordWrap: "break-word", fontSize: "13px" }}
+                      style={{ wordWrap: "break-word", fontSize: "13px",textAlign:'center' }}
                     >
-                      <strong>{name[0]}</strong>
+                      <strong>{items?.name}</strong>
                     </Typography>
-                    <Typography style={{ fontSize: "14px" }}>
+                    {/* <Typography style={{ fontSize: "14px" }}>
                       {"Base Model" + items?.baseModel}{" "}
-                    </Typography>
-                    <Grid container>
+                    </Typography> */}
+                    {/* <Grid container>
                       {items?.tags.map((data, index) => {
-                        return 6 > index ? (
+                        return 4 > index ? (
                           <div
                             key={index}
                             style={{
@@ -141,7 +160,7 @@ export default function ExploreBaseModel () {
                           </div>
                         ) : null;
                       })}
-                    </Grid>
+                    </Grid> */}
                   </div>
                 </Card>
               </Grid>

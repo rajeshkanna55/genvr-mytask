@@ -3,11 +3,12 @@ import style from './optionPage.module.css';
 import { Grid } from '@mui/material';
 import { select } from '../../public/constants/constans';
 import { useRouter } from 'next/router';
-export default function OptionPage(){
+export default function OptionPage({setOptionPage}){
   const router = useRouter();
   const handlePage = (e) => {
       var page = e.target.value;
       var index = e.target.selectedIndex;
+
       if(  page === "Text Based" || page === "Image Based" || page === "Controlled Generation" || page === "By reference" || page === "Variations")
       {
         router.push('/');
@@ -22,7 +23,11 @@ export default function OptionPage(){
       }
       else if(page === "Base models" || page === "Loras" || page === "Textual Inversions" || page === "Styles" || page === "Artist styles" || page === "Aesthetic embeddings" )
       {
-        router.push('/explore');
+        let comb = page.split(' ');
+        let text = '';
+       comb.forEach((item) => (text += item));
+        let path = text.toLowerCase();
+        router.push(`/explore/${path}`);
       }
       else
       {
@@ -33,8 +38,8 @@ export default function OptionPage(){
   return (
     <>
       <div className={style.color}>
-        <div className="container">
-          <div className={style.option_div}>
+        <div className="container-fluid">
+          {/* <div className={style.option_div}> */}
             <div className={style.select_align}>
               <Grid container gap={{sm:2,md:3,lg:5}}>
                 {select &&
@@ -54,7 +59,7 @@ export default function OptionPage(){
                   ))}
               </Grid>
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </>

@@ -1,31 +1,47 @@
 import { Card, Grid, Tooltip, Typography} from "@mui/material"
-import style from './exploreBasemodel.module.css';
+import style from './exploreTextualInversion.module.css';
 import Image from "next/image";
-import base from '../../public/data/base_models.json';
-import { fixedColors, loraImg } from "../../public/constants/constans";
+import tinverseData from '../../public/data/textual_inversion.json'; 
+import { categories, fixedColors, loraImg } from "../../public/constants/constans";
 import  MoreVertIcon from '@mui/icons-material/MoreVert';
 import { useState } from "react";
 import InfoIcon from '@mui/icons-material/Info';
 import { makeStyles } from "@mui/styles";
+import { lora } from "../../public/constants/constans";
 const useStyles = makeStyles((theme) => ({
   customTooltip: {
     backgroundColor: "White",
     color: "black", 
   },
 }));
-export default function ExploreBaseModel () {
+export default function ExploreTextualInversion () {
     const [val,setVal] = useState(null);
     const classes = useStyles();
-    const data = base;
+    const data = tinverseData;
     const handleSelect=(index)=>{
       setVal(index);
     }
     return (
       <>
         <div className="container-fluid mx-4">
-          <div className={style.search_options}> 
-                <input type="search" placeholder="Search..." className={style.search_input}/>
-          </div>
+            <div className={style.search_options}>
+              <input
+                type="search"
+                placeholder="Search..."
+                className={style.search_input}
+              />
+              <select name="sampling" className={style.sampling_select_option}>
+                <option value="Euler a" disabled selected>
+                  Categaory
+                </option>
+                {categories &&
+                  categories.map((items, index) => (
+                    <option key={items} value={items}>
+                      {items}
+                    </option>
+                  ))}
+              </select>
+            </div>
         </div>
         {data &&
           data.map((items, index) => {
@@ -69,10 +85,6 @@ export default function ExploreBaseModel () {
                                 <p style={{ margin: "0" }}>
                                   <strong>name :</strong>
                                   {name[0]}
-                                </p>
-                                <p style={{ margin: "0" }}>
-                                  <strong>downloadurl:</strong>
-                                  {" " + items?.downloadUrl}
                                 </p>
                                 <p style={{ margin: "0" }}>
                                   <strong>Base Model :</strong>
@@ -129,7 +141,7 @@ export default function ExploreBaseModel () {
                     </Typography>
                     <Grid container>
                       {items?.tags.map((data, index) => {
-                        return 6 > index ? (
+                        return 4 > index ? (
                           <div
                             key={index}
                             style={{

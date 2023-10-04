@@ -46,6 +46,25 @@ import fashion from '../assets/fashion.webp';
 import figurine from '../assets/figurine.webp';
 import ghibli from '../assets/ghibli.png';
 import girl from '../assets/girl.png';
+import woolitize from '../assets/woolitize.webp';
+import warm_scene from '../assets/warm_scene.webp';
+import vector_illustration from '../assets/vector_illustration.png';
+import typography from '../assets/typography.webp';
+import toon_monster from '../assets/toon_monster.webp';
+import tokyo_background from '../assets/tokyo_background.webp';
+import stuffed_plush from '../assets/stuffed_plush.webp';
+import sticker from '../assets/sticker.webp';
+import space_hologram from '../assets/space_hologram.png';
+import skin_enhancer from '../assets/skin_enhancer.png';
+import skin_enhancer_clean from '../assets/skin_enhancer_clean.png';
+import schematic from '../assets/schematic.webp';
+import robotize from '../assets/robotize.webp';
+import render_3d from '../assets/render_3d.webp';
+import realistic_shaded from '../assets/realistic_shaded.webp';
+import realistic_photo_potraits from '../assets/realistic_photo_potraits.png';
+import realistic_anime_face from '../assets/realistic_anime_face.webp';
+import punky from '../assets/punky.webp';
+import psycho from '../assets/psycho.webp';
 
 export const imageList = [
   img1,
@@ -242,4 +261,36 @@ export const filterObjects = filterNames.map((filterName) => ({
   filter: filterName,
 }));
 
+export const imageArtist = [
+  { image: woolitize, name: 'woolitize' },
+  { image: warm_scene, name: 'warm_scene' },
+  { image: vector_illustration, name: 'vector_illustration' },
+  { image: typography, name: 'typography' },
+  { image: toon_monster, name: 'toon_monster' },
+  { image: tokyo_background, name: 'tokyo_background' },
+  { image: stuffed_plush, name: 'stuffed_plush' },
+  { image: sticker, name: 'sticker' },
+  { image: space_hologram, name: 'space_hologram' },
+  { image: skin_enhancer, name: 'skin_enhancer' },
+  { image: skin_enhancer_clean, name: 'skin_enhancer_clean' },
+  { image: schematic, name: 'schematic' },
+  { image: robotize, name: 'robotize' },
+  { image: render_3d, name: 'render_3d' },
+  { image: realistic_shaded, name: 'realistic_shaded' },
+  { image: realistic_photo_potraits, name: 'realistic_photo_potraits' },
+  { image: realistic_anime_face, name: 'realistic_anime_face' },
+  { image: punky, name: 'punky' },
+  { image: psycho, name: 'psycho' },
+];
 
+export const greekGods = [
+  'Zeus', 'Hera', 'Poseidon', 'Demeter', 'Athena', 'Apollo', 'Artemis', 'Ares',
+  'Aphrodite', 'Hephaestus', 'Hermes', 'Dionysus', 'Hades', 'Persephone', 'Hestia',
+  'Pan', 'Eros', 'Nike', 'Nemesis', 'Hypnos', 'Janus', 'Iris', 'Hebe', 'The Muses',
+  'Hecate', 'Ananke', 'Chaos', 'Erebus', 'Nyx', 'Gaia', 'Uranus', 'Cronus'
+];
+
+export const combinedArray = greekGods.map((name, index) => ({
+  name,
+  image: imageList[index]
+}));

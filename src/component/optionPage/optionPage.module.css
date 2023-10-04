@@ -31,6 +31,10 @@
 .color
 {
     width:100%;
+    justify-content: center;
     background-color: white;
+}
+.option_div{
+    margin-left: 10px;
 }
 

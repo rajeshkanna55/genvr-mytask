@@ -70,3 +70,9 @@
   padding: 6px 10px;
   cursor: pointer;
 }
+.mobile_adjust{
+  margin: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
